@@ -18,7 +18,7 @@
   - [First Time Player Goals](#first-time-player-goals)
   - [Returning Player Goals](#returning-player-goals)
 - [Design](#design)
-  - [Color Scheme](#color-scheme)
+  - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
 - [Wireframes](#wireframes)
 - [Features](#features)
@@ -54,7 +54,7 @@
 
 ## Design
 
-  ### Color Scheme
+  ### Colour Scheme
 
 [Back to Table of Content](#table-of-content)
 
@@ -73,6 +73,12 @@
 ## Technologies
 
   ### Languages
+
+[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - Used to structure the individual page(s) of the website.
+
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling language used to style and colour HTML and dynamic elements.
+
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to create and manipulate the dynamic elements of the website.
 
   ### Integrations
 
