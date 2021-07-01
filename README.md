@@ -25,7 +25,7 @@
 - [Technologies](#technologies)
   - [Languages](#languages)
   - [Integrations](#integrations)
-  - [Workspace- version control and repository storage](#workspace--version-control-and-repository-storage)
+  - [Version control- workspace and repository storage](#version-control--workspace-and-repository-storage)
   - [Other Technologies](#other-technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -74,15 +74,19 @@
 
   ### Languages
 
-[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - Used to structure the individual page(s) of the website.
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - Used to structure the individual page(s) of the website.
 
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling language used to style and colour HTML and dynamic elements.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling language used to style and colour HTML and dynamic elements.
 
-[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to create and manipulate the dynamic elements of the website.
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to create and manipulate the dynamic elements of the website.
 
   ### Integrations
 
-  ### Workspace- version control and repository storage
+  ### Version control- workspace and repository storage
+
+- [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
+- [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment).
+- [GitHub](https://github.com/) - Used to host the deployed website and repository of all previous versions of the build.
 
   ### Other Technologies
 
