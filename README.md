@@ -18,14 +18,14 @@
   - [First Time Player Goals](#first-time-player-goals)
   - [Returning Player Goals](#returning-player-goals)
 - [Design](#design)
-  - [Colour Scheme](#colour-scheme)
+  - [Color Scheme](#color-scheme)
   - [Typography](#typography)
 - [Wireframes](#wireframes)
 - [Features](#features)
 - [Technologies](#technologies)
   - [Languages](#languages)
   - [Integrations](#integrations)
-  - [Workspace, version control and repository storage](#workspace,-version-control-and-repository-storage)
+  - [Workspace- version control and repository storage](#workspace--version-control-and-repository-storage)
   - [Other Technologies](#other-technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -76,7 +76,7 @@
 
   ### Integrations
 
-  ### Workspace, version control and repository storage
+  ### Workspace- version control and repository storage
 
   ### Other Technologies
 
