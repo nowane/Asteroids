@@ -16,18 +16,18 @@
 
 - [Tradeoff Table](#tradeoff-table)
 - [User Experience -UX-](#user-experience--ux-)
-- [User Stories](#User-Stories) 
-  - [First Time Player Goals](#first-time-player-goals)
-  - [Returning Player Goals](#returning-player-goals)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-- [Wireframes](#wireframes)
+  - [User Stories](#user-stories) 
+    - [As a New User](#as-a-new-user)
+    - [As a Returning User](#as-a-returning-user)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+  - [Wireframes](#wireframes)
 - [Features](#features)
 - [Technologies](#technologies)
   - [Languages](#languages)
   - [Integrations](#integrations)
-  - [Version control- workspace and repository storage](#version-control--workspace-and-repository-storage)
+  - [Version Control- Workspace and Repository Storage](#version-control--workspace-and-repository-storage)
   - [Other Technologies](#other-technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -38,33 +38,32 @@
 
   ### User Stories
 
-  #### First Time Player Goals
+  #### As a New User
 
-- As a new player, I want a clear explanation on instructions of how to play the game.
-- As a new player, I want an easy way to adjust the game to my level of skill.
-- As a new player, I want clear feedback on my progress while I play.
-- As a new player, I want the game to be easily playable.
-- As a new player, I want the game to work on all devices.
-- As a new player, I want there to be a scoring feature.
-- As a new player, I want my high score to be saved.
-- As a new player, I want to see how many lives remain.
+- As a user, I want to easily see the purpose of the website.
+- As a user, I want the game to be responsive and work on all devices.
+- As a user, I want a clear explanation on instructions of how to play the game.
+- As a user, I want to be able to see how many letters the hidden word has.
+- As a user, I want to be able to tell if my guess was successful or not.
+- As a user, I want to see a hangman appear when I guess incorrectly.
+- As a user, I want there to be a scoring feature.
+- As a user, I want to be able to restart the game.
 
-  #### Returning Player Goals
+  #### As a Returning User
 
-- As a returning player, I want my highscore to be saved from last time playing.
-- As a returning player, I want to be able to easily start playing again.
+- As a returning user, I want to be able to get in contact with the owner of the website.
 
-## Design
+### Design
 
-  ### Colour Scheme
-
-[Back to Table of Content](#table-of-content)
-
-  ### Typography
+  #### Colour Scheme
 
 [Back to Table of Content](#table-of-content)
 
-## Wireframes
+  #### Typography
+
+[Back to Table of Content](#table-of-content)
+
+### Wireframes
 
 [Back to Table of Content](#table-of-content)
 
@@ -84,7 +83,7 @@
 
   ### Integrations
 
-  ### Version control- workspace and repository storage
+  ### Version Control- Workspace and Repository Storage
 
 - [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
 - [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment).
