@@ -1,10 +1,12 @@
-# Asteroids | Interactive Frontend Project 
+# Hangman | Interactive Frontend Project 
 
  ====================== PROJECT IMAGE LATER ON 
 
 ## Project Overview
 
- This is the second milestone project in obtaining a **Full-Stack Web Development Diploma** from  **[Code Institute](https://codeinstitute.net/)**. The project is focused on **Javascript**, but **HTML** and **CSS** are used as well. To improve the overall quality and user experience of this website other technologies were used as well. The full list of technologies used can be found in the technologies section of this document.
+ This is the second milestone project in obtaining a **Full-Stack Web Development Diploma** from  **[Code Institute](https://codeinstitute.net/)**. The project is focused on **Javascript**, but **HTML** and **CSS** are used as well. To improve the overall quality and user experience of this website other technologies were used as well. The full list of technologies used can be found in the technologies section of this document. 
+ 
+ At first I was planning to make the game of "Asteroids", but after discussing the idea with my mentor Aaron I decided to go for the game of "Hangman". This being easier to execute and a more straightforward project in general.
 
 **Please note: To open any links in this document in a new browser tab, please press CTRL + Click.**
 
