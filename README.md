@@ -33,6 +33,8 @@
 - [Deployment](#deployment)
   - [Deployment to Github](#deployment-to-github)
   - [Run Code Locally](#run-code-locally)
+    - [Forking Local Repository](#forking-local-repository)
+    - [Cloning Local Repository](#cloning-local-repository)
 - [Credits](#credits)
 
 ## Tradeoff Table
@@ -148,19 +150,36 @@ This [testing document](https://github.com/nowane/asteroids/ =========TOBECONTIN
 
 ### Run Code Locally
 
-You can either fork or clone the local repository on GitHub as follows:
+You can either fork or clone the local repository on GitHub as follows.
 
-  #### Forking local repository
+  #### Forking Local Repository
 
-  You can make a copy of the GitHub Repository by "forking" the original repository onto your own account, where changes can be made without affecting the original repository by following the following steps:
+You could make a copy of the GitHub repository by "Forking" the original repository onto your own account by following these steps:
 
   - Sign in to GitHub.
   - On GitHub, navigate to the [nowane/Hangman](https://github.com/nowane/Hangman) repository.
   - In the top-right corner of the page, click Fork.
   - You should now have a copy of this repository into your GitHub account.
 
+  [Back to Table of Content](#table-of-content)
 
-  #### Cloning local repository
+  #### Cloning Local Repository
+
+ You could make a clone of the GitHub repository by "Cloning" the original repository by following these steps:
+
+  - Sign in to GitHub.
+  - On GitHub, navigate to the [nowane/Hangman](https://github.com/nowane/Hangman) repository.
+  - Above the repository folder and file content, click “Code”.
+  - Select from one of the following options:
+    - Clone the files using the url.
+      - Copy the url.
+      - Create a repository in GitHub and a workspace in your IDE.
+      - Open the terminal and type: $ git clone https://github.com/nowane/Hangman.git .
+      - All the files should have been imported in your workspace.
+    - Download zip files.
+      - Create a repository in GitHub and a workspace in your IDE.
+      - Unzip the folder.
+      - Upload the files into your workspace.
 
 [Back to Table of Content](#table-of-content)
 
