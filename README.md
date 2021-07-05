@@ -31,6 +31,8 @@
   - [Other Technologies](#other-technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
+  - [Deployment to Github](#deployment-to-github)
+  - [Run Code Locally](#run-code-locally)
 - [Credits](#credits)
 
 ## Tradeoff Table
@@ -127,7 +129,24 @@ This [testing document](https://github.com/nowane/asteroids/ =========TOBECONTIN
 
 ## Deployment
 
-[Back to Table of Content](#table-of-content)
+### Deployment to Github
+
+ Deploying to GitHub Pages:
+ 
+- Sign in to GitHub.
+- Insert the name of the repository in the search bar: nowane/Hangman .
+- Click on the repository to view more details.
+- Click on settings, which is located in the row above the green Gitpod button.
+- Scroll down to the GitHub Pages section.
+- Under source, select master in the dropdown menu.
+- Select /(root) in the tab which is right next to branch.
+- Click Save (page will automatically refresh).
+- Scroll down again to the GitHub pages section.
+- A container with a blue blackground will tell you: "Your site is ready to be published at https://nowane.github.io/Hangman/ .
+
+### Run Code Locally
+
+  [Back to Table of Content](#table-of-content)
 
 ## Credits
 
