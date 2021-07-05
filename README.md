@@ -134,7 +134,7 @@ This [testing document](https://github.com/nowane/asteroids/ =========TOBECONTIN
  Deploying to GitHub Pages:
  
 - Sign in to GitHub.
-- Insert the name of the repository in the search bar: nowane/Hangman .
+- Insert the name of the repository in the search bar: [nowane/Hangman](https://github.com/nowane/Hangman) .
 - Click on the repository to view more details.
 - Click on settings, which is located in the row above the green Gitpod button.
 - Scroll down to the GitHub Pages section.
@@ -144,9 +144,25 @@ This [testing document](https://github.com/nowane/asteroids/ =========TOBECONTIN
 - Scroll down again to the GitHub pages section.
 - A container with a blue blackground will tell you: "Your site is ready to be published at https://nowane.github.io/Hangman/ .
 
+[Back to Table of Content](#table-of-content)
+
 ### Run Code Locally
 
-  [Back to Table of Content](#table-of-content)
+You can either fork or clone the local repository on GitHub as follows:
+
+  #### Forking local repository
+
+  You can make a copy of the GitHub Repository by "forking" the original repository onto your own account, where changes can be made without affecting the original repository by following the following steps:
+
+  - Sign in to GitHub.
+  - On GitHub, navigate to the [nowane/Hangman](https://github.com/nowane/Hangman) repository.
+  - In the top-right corner of the page, click Fork.
+  - You should now have a copy of this repository into your GitHub account.
+
+
+  #### Cloning local repository
+
+[Back to Table of Content](#table-of-content)
 
 ## Credits
 
