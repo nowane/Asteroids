@@ -33,6 +33,23 @@
 - [Deployment](#deployment)
 - [Credits](#credits)
 
+## Tradeoff Table
+	
+Opportunity/Problem | Importance | Viability/Feasibility
+--------------------|------------|-----------
+Create a page heading | 5 | 5
+Add footer items | 3 | 5
+Display instructions | 5 | 5
+Hangman drawing | 5 | 5
+Win/lose text when game ends | 5 | 5
+Restart game button | 5 | 4
+Score count | 4 | 4
+Keyboard on screen | 4 | 3
+User can contact site owner | 3 | 3
+Timer | 2| 2
+Sounds | 2 | 2
+
+[Back to Table of Content](#Table-of-Content) 
 
 ## User Experience -UX-
 
@@ -53,6 +70,8 @@
 
 - As a returning user, I want to be able to get in contact with the owner of the website.
 
+[Back to Table of Content](#Table-of-Content)
+
 ### Design
 
   #### Colour Scheme
@@ -65,7 +84,7 @@
 
 ### Wireframes
 
-Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wireframes/hangman-wireframes.pdf) for desktop, tablet and mobile.
+Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wireframes/hangman-wireframes.pdf  ) for desktop, tablet and mobile.
 
 [Back to Table of Content](#table-of-content)
 
