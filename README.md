@@ -125,7 +125,7 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 
 ## Testing
 
-This [testing document](https://github.com/nowane/asteroids/ =========TOBECONTINUED=======/testing.md)  contains all testing,
+This [testing document](https://github.com/nowane/Hangman/blob/master/TESTING.md)  contains all testing,
 
 [Back to Table of Content](#table-of-content)
 

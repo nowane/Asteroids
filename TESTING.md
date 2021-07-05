@@ -11,3 +11,7 @@
 - Documentation of any bugs encountered and their resolution steps. 
 
 - Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
+
+[Back to Repository](https://github.com/nowane/Hangman)
+
+[Back to README.md](https://github.com/nowane/Hangman/blob/master/README.md)
