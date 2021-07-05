@@ -65,7 +65,7 @@
 
 ### Wireframes
 
-Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wireframes/hangman-game.bmpr) for desktop, tablet and mobile.
+Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wireframes/hangman-wireframes.pdf) for desktop, tablet and mobile.
 
 [Back to Table of Content](#table-of-content)
 
