@@ -10,6 +10,47 @@
     font-size: 3rem;
 }
 
+/* ========== CONTAINERS */
+
+.game-container {
+
+}
+
+.no-mp {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== NAVIGATION */
+
+
+
+/* ========== GAMESCORE */
+
+#gamescore {
+    height: 10vh;
+}
+
+
+/* ========== HIDDEN LETTERS */
+
+#hidden-letters {
+    height: 30vh;
+}
+
+/* ========== KEYBOARD */
+
+#keyboard {
+    height: 30vh;
+}
+
+/* ========== HANGMAN */
+
+#hangman {
+    height: 60vh;
+}
+
+
 
 /* ========== FOOTER */
 
