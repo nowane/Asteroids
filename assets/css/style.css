@@ -1,5 +1,14 @@
 /* ========== HEADER */
+.page-header {
+    padding: 1rem;
+    border-bottom: 1px solid;
+    background-color: #221E22;
+    color: #EE5622;
+}
 
+#h1-heading {
+    font-size: 3rem;
+}
 
 
 /* ========== FOOTER */
