@@ -1,4 +1,56 @@
-/* ========== HEADER */
+/* ========== CONTAINERS */
+
+.game-container {}
+
+#hidden-letters {
+    height: 30vh;
+}
+
+#keyboard {
+    height: 30vh;
+}
+
+#gamescore {
+    height: 10vh;
+}
+
+
+/* ========== GENERAL MARGINS/PADDINGS */
+
+.no-mp {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== BUTTONS */
+
+button {
+    background: none;
+    border: 2px solid;
+    margin: 1em;
+    padding: 0.5em 1em;
+}
+
+.btn-general {
+    color: #EE5622;
+    transition: 0.25s;
+}
+
+.btn-general:hover {
+    color: #ECA72C;
+}
+
+/* ========== HEADER(S) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
 .page-header {
     padding: 1rem;
     border-bottom: 1px solid;
@@ -10,39 +62,21 @@
     font-size: 3rem;
 }
 
-/* ========== CONTAINERS */
-
-.game-container {
-
-}
-
-.no-mp {
-    margin: 0;
-    padding: 0;
-}
-
 /* ========== NAVIGATION */
 
 
 
 /* ========== GAMESCORE */
 
-#gamescore {
-    height: 10vh;
-}
 
 
 /* ========== HIDDEN LETTERS */
 
-#hidden-letters {
-    height: 30vh;
-}
+
 
 /* ========== KEYBOARD */
 
-#keyboard {
-    height: 30vh;
-}
+
 
 /* ========== HANGMAN */
 
@@ -60,3 +94,5 @@
     background-color: #221E22;
     color: #EE5622;
 }
+
+/* ========== CONTACT MODAL */
