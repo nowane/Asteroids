@@ -78,18 +78,17 @@
         <!-- Contact modal -->
         <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content text-center">
+                <div class="modal-content align-items-center">
                     <div class="modal-header">
                         <h5 class="modal-title" id="contactModalLabel">Contact</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                        <div class="modal-body">
                         <!-- Contact modal form -->
                         <form class="text-center">
                             <div class="form-group">
                                 <label for="name">Full Name</label>
-                                <input type="name" class="form-control text-center" id="contact-name" placeholder="Enter Full Name Here"
-                                    required>
+                                <input type="name" class="form-control text-center" id="contact-name"
+                                    placeholder="Enter Full Name Here" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail</label>
@@ -102,7 +101,8 @@
                                     placeholder="Enter Message Here" required>
                             </div>
 
-                            <button type="submit" class="btn-general">Send E-mail</button>
+                            <button type="submit" class="btn-general" aria-label="sendEmail">Send E-mail</button>
+                            <button type="button" class="btn-general" data-bs-dismiss="modal" aria-label="Close">Close</button>
                         </form>
 
                     </div>
