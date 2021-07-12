@@ -25,133 +25,281 @@
     },
     {
         "word": "ant",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     },
     {
         "word": "cat",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     },
     {
         "word": "fox",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     },
     {
         "word": "pig",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     }, {
         "word": "cow",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     },
     {
         "word": "bird",
-        "level": "easy",
+        "difficulty": "easy",
         "category": "animals"
     },
     {
         "word": "chicken",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "monkey",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "rabbit",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "camel",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "cheetah",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "coyote",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "eagle",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "elephant",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "giraffe",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "hamster",
-        "level": "medium",
+        "difficulty": "medium",
         "category": "animals"
     },
     {
         "word": "grasshopper",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
-    }, 
+    },
     {
         "word": "armadillo",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
     },
     {
         "word": "caribou",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
-    }, 
+    },
     {
         "word": "cockroach",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
     },
     {
         "word": "hedgehog",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
-    }, 
+    },
     {
         "word": "hippopotamus",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
     },
     {
         "word": "hummingbird",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
-    }, 
+    },
     {
         "word": "nightingale",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
     },
     {
         "word": "porcupine",
-        "level": "hard",
-        "category": "animals"
-    }, 
-    {
-        "word": "rhinoceros",
-        "level": "hard",
+        "difficulty": "hard",
         "category": "animals"
     },
-
-
+    {
+        "word": "rhinoceros",
+        "difficulty": "hard",
+        "category": "animals"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "easy",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "medium",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
+    {
+        "word": "",
+        "difficulty": "hard",
+        "category": "food"
+    },
 ]
