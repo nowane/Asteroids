@@ -452,5 +452,61 @@
         "difficulty": "hard",
         "category": "countries"
     },
+    {
+        "word": "hydrogen",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+    {
+        "word": "sodium",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+
+    {
+        "word": "calcium",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+    {
+        "word": "lithium",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+
+    {
+        "word": "carbon",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+    {
+        "word": "oxygen",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+
+    {
+        "word": "sulfur",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+    {
+        "word": "iodine",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+
+    {
+        "word": "lead",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+    {
+        "word": "aluminium",
+        "difficulty": "easy",
+        "category": "periodic-table"
+    },
+
+
 
 ]
