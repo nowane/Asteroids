@@ -1,5 +1,19 @@
 /* ========== CONTAINERS */
 
+.container-deep-purple {
+    background-color: #31263E;
+}
+
+.container-light-purple {
+    background-color: #44355B;
+}
+
+html {
+    background-color: #31263E;
+}
+
+
+
 .game-container {}
 
 #hidden-letters {
