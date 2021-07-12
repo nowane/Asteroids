@@ -39,12 +39,18 @@
             <div class="col-8">
                 <div class="row">
 
-                    <div class="col-7">
+                    <div class="col-7 container-light-purple">
                         <!-- Hidden letter section -->
-                        <div id="hidden-letters" class="d-block container-light-purple">LETTERS</div>
+                        <div id="hidden-letters" class="d-block">LETTERS</div>
 
                         <!-- interactive keyboard section -->
-                        <div id="keyboard" class="d-block container-light-purple">KEYBOARD</div>
+                        <div id="user-keyboard-input" class="container-fluid text-center">
+                            <!-- Form input based on https://codepen.io/W0Sabi/pen/VNwPzr  -->
+                            <form name="inputUser" id="inputUser">
+                                <input type="text" size="10" maxlength="1" name="guess" id="guessUser" placeholder="Enter guess here" />
+                                <button onclick="validateGuessForm()" class="btn-general">Submit</button>
+                            </form>
+                        </div>
                     </div>
 
                     <!-- Hangman section -->
