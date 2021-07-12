@@ -46,11 +46,61 @@
         "word": "cow",
         "level": "easy",
         "category": "animals"
-    }, 
+    },
     {
         "word": "bird",
         "level": "easy",
         "category": "animals"
-    } 
+    },
+    {
+        "word": "chicken",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "monkey",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "rabbit",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "camel",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "cheetah",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "coyote",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "eagle",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "elephant",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "giraffe",
+        "level": "medium",
+        "category": "animals"
+    },
+    {
+        "word": "hamster",
+        "level": "medium",
+        "category": "animals"
+    }
 
 ]
