@@ -1,17 +1,56 @@
-[
-    {
-        "word": "",
-        "difficulty": "",
-        "category": "",
+[{
+        "word": "lion",
+        "difficulty": "easy",
+        "category": "animals"
     },
     {
-        "word": "",
-        "difficulty": "",
-        "category": "",
+        "word": "sheep",
+        "difficulty": "easy",
+        "category": "animals"
     },
     {
-        "word": "",
-        "difficulty": "",
-        "category": "",
+        "word": "wolf",
+        "difficulty": "easy",
+        "category": "animals"
     },
+    {
+        "word": "tiger",
+        "difficulty": "easy",
+        "category": "animals"
+    },
+    {
+        "word": "dog",
+        "difficulty": "easy",
+        "category": "animals"
+    },
+    {
+        "word": "ant",
+        "level": "easy",
+        "category": "animals"
+    },
+    {
+        "word": "cat",
+        "level": "easy",
+        "category": "animals"
+    },
+    {
+        "word": "fox",
+        "level": "easy",
+        "category": "animals"
+    },
+    {
+        "word": "pig",
+        "level": "easy",
+        "category": "animals"
+    }, {
+        "word": "cow",
+        "level": "easy",
+        "category": "animals"
+    }, 
+    {
+        "word": "bird",
+        "level": "easy",
+        "category": "animals"
+    } 
+
 ]
