@@ -101,6 +101,57 @@
         "word": "hamster",
         "level": "medium",
         "category": "animals"
-    }
+    },
+    {
+        "word": "grasshopper",
+        "level": "hard",
+        "category": "animals"
+    }, 
+    {
+        "word": "armadillo",
+        "level": "hard",
+        "category": "animals"
+    },
+    {
+        "word": "caribou",
+        "level": "hard",
+        "category": "animals"
+    }, 
+    {
+        "word": "cockroach",
+        "level": "hard",
+        "category": "animals"
+    },
+    {
+        "word": "hedgehog",
+        "level": "hard",
+        "category": "animals"
+    }, 
+    {
+        "word": "hippopotamus",
+        "level": "hard",
+        "category": "animals"
+    },
+    {
+        "word": "hummingbird",
+        "level": "hard",
+        "category": "animals"
+    }, 
+    {
+        "word": "nightingale",
+        "level": "hard",
+        "category": "animals"
+    },
+    {
+        "word": "porcupine",
+        "level": "hard",
+        "category": "animals"
+    }, 
+    {
+        "word": "rhinoceros",
+        "level": "hard",
+        "category": "animals"
+    },
+
 
 ]
