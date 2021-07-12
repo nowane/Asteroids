@@ -1,3 +1,10 @@
+/* ========== FONTS */
+
+body {
+    font-family: Roboto-Mono, Space-Mono;
+    font-weight: 300;
+}
+
 /* ========== CONTAINERS */
 
 .container-deep-purple {
