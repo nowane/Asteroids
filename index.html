@@ -27,95 +27,103 @@
         </div>
     </header>
 
-    <!-- Gamescore section-->
-    <div class="container-fluid container-deep-purple">
-        <div class="row justify-content-center">
-            <div id="gamescore" class="col-8 d-inline-block game-info text-center container-light-purple">GAMESCORE</div>
+    <!-- Game container -->
+    <div class="game-container">
+        <!-- Gamescore section-->
+        <div class="container-fluid container-deep-purple">
+            <div class="row justify-content-center">
+                <div id="gamescore"
+                    class="col-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
+                    GAMESCORE
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid container-deep-purple">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="row">
+
+                        <div class="col-7 container-light-purple mt-3 ps-0">
+                            <!-- Hidden letter section -->
+                            <div id="hidden-letters" class="d-block border own-border">LETTERS</div>
+
+                            <!-- interactive keyboard section -->
+                            <div id="user-keyboard-input" class="container-fluid text-center border own-border">
+                                <!-- Form input based on https://codepen.io/W0Sabi/pen/VNwPzr  -->
+                                <form name="inputUser" id="inputUser">
+                                    <input type="text" size="10" maxlength="1" name="guess" id="guessUser"
+                                        placeholder="Enter guess here" />
+                                    <button onclick="validateGuessForm()" class="btn-general">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Hangman section -->
+                        <div id="hangman" class="col-5 d-inline-block container-light-purple mt-3 border own-border">
+                            HANGMAN</div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container-fluid container-deep-purple">
-        <div class="row justify-content-center">
-            <div class="col-8">
-                <div class="row">
+    <footer id="footer" class="fixed-bottom">
+        <div class="container-fluid row">
+            <div class="col-4 text-center">
+                <!-- Button trigger contact modal -->
+                <button type="button" class="btn-general" data-bs-toggle="modal" data-bs-target="#contactModal">
+                    Contact
+                </button>
+            </div>
 
-                    <div class="col-7 container-light-purple">
-                        <!-- Hidden letter section -->
-                        <div id="hidden-letters" class="d-block">LETTERS</div>
+            <div class="col-4 text-center">
+                <p>Yorick van den Hurk</p>
+            </div>
 
-                        <!-- interactive keyboard section -->
-                        <div id="user-keyboard-input" class="container-fluid text-center">
-                            <!-- Form input based on https://codepen.io/W0Sabi/pen/VNwPzr  -->
-                            <form name="inputUser" id="inputUser">
-                                <input type="text" size="10" maxlength="1" name="guess" id="guessUser" placeholder="Enter guess here" />
-                                <button onclick="validateGuessForm()" class="btn-general">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <!-- Hangman section -->
-                    <div id="hangman" class="col-5 d-inline-block container-light-purple">HANGMAN</div>
-
-                </div>
+            <div class="col-4 text-center">
+                <span><i class="fab fa-github"></i></span>
             </div>
         </div>
+    </footer>
 
-
-        <footer id="footer" class="fixed-bottom">
-            <div class="container-fluid row">
-                <div class="col-4 text-center">
-                    <!-- Button trigger contact modal -->
-                    <button type="button" class="btn-general" data-bs-toggle="modal" data-bs-target="#contactModal">
-                        Contact
-                    </button>
+    <!-- Based on Bootstraps modal https://getbootstrap.com/docs/5.0/components/modal/ -->
+    <!-- Contact modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container-fluid modal-header header-footer-color">
+                    <div class="container text-center">
+                        <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                    </div>
                 </div>
-
-                <div class="col-4 text-center">
-                    <p>Yorick van den Hurk</p>
-                </div>
-
-                <div class="col-4 text-center">
-                    <span><i class="fab fa-github"></i></span>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Based on Bootstraps modal https://getbootstrap.com/docs/5.0/components/modal/ -->
-        <!-- Contact modal -->
-        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="container-fluid modal-header header-footer-color">
+                <!-- Contact modal form -->
+                <form onsubmit="return sendMail(this);" id="contactForm" class="text-center">
+                    <div class="modal-body">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name"
+                            required />
+                        <label for="email">E-mail Address:</label>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                            placeholder="Email Address" required />
+                        <label for="message">Message:</label>
+                        <textarea rows="3" name="message" class="form-control" id="message" placeholder="Message"
+                            required></textarea>
+                    </div>
+                    <div class="container-fluid modal-footer header-footer-color">
                         <div class="container text-center">
-                            <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                            <button onsubmit="sendMail(this);" type="submit" class="btn-general"
+                                aria-label="sendEmail">Send
+                                E-mail</button>
+                            <button type="button" class="btn-general" data-bs-dismiss="modal"
+                                aria-label="Close">Close</button>
                         </div>
                     </div>
-                    <!-- Contact modal form -->
-                    <form onsubmit="return sendMail(this);" id="contactForm" class="text-center">
-                        <div class="modal-body">
-                            <label for="fullname">Full Name:</label>
-                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name"
-                                required />
-                            <label for="email">E-mail Address:</label>
-                            <input type="text" name="emailaddress" class="form-control" id="emailaddress"
-                                placeholder="Email Address" required />
-                            <label for="message">Message:</label>
-                            <textarea rows="3" name="message" class="form-control" id="message" placeholder="Message"
-                                required></textarea>
-                        </div>
-                        <div class="container-fluid modal-footer header-footer-color">
-                            <div class="container text-center">
-                                <button onsubmit="sendMail(this);" type="submit" class="btn-general"
-                                    aria-label="sendEmail">Send
-                                    E-mail</button>
-                                <button type="button" class="btn-general" data-bs-dismiss="modal"
-                                    aria-label="Close">Close</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>

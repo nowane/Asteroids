@@ -12,9 +12,11 @@ html {
     background-color: #31263E;
 }
 
-
-
 .game-container {}
+
+#gamescore {
+    height: 10vh;
+}
 
 #hidden-letters {
     height: 30vh;
@@ -24,8 +26,8 @@ html {
     height: 30vh;
 }
 
-#gamescore {
-    height: 10vh;
+#hangman {
+    height: 60vh;
 }
 
 
@@ -34,6 +36,13 @@ html {
 .no-mp {
     margin: 0;
     padding: 0;
+}
+
+/* ========== BORDERS */
+
+.own-border {
+    border-color: #EE5622 !important;
+    border-style: solid;
 }
 
 /* ========== BUTTONS */
@@ -98,10 +107,6 @@ h6 {
 
 
 /* ========== HANGMAN */
-
-#hangman {
-    height: 60vh;
-}
 
 
 
