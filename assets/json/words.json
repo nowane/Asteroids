@@ -1,4 +1,5 @@
-[{
+[
+    {
         "word": "lion",
         "difficulty": "easy",
         "category": "animals"
@@ -552,7 +553,54 @@
         "difficulty": "medium",
         "category": "periodic-table"
     },
-
-
-
+    {
+        "word": "rutherfordium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "tellurium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "oganesson",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "praseodymium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "mendelevium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "livermorium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "protactinium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "ytterbium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "technetium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    },
+    {
+        "word": "gadolinium",
+        "difficulty": "hard",
+        "category": "periodic-table"
+    }
 ]
