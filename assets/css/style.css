@@ -50,8 +50,8 @@ html {
 button {
     background: none;
     border: 2px solid;
-    margin: 1em;
-    padding: 0.5em 1em;
+    margin: 0.3em;
+    padding: 1em;
 }
 
 .btn-general {
@@ -61,6 +61,10 @@ button {
 
 .btn-general:hover {
     color: #ECA72C;
+}
+
+.btn-general.button-keyboard {
+    size: 5px;
 }
 
 /* ========== HEADER(S) */
