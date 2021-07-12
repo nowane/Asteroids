@@ -15,19 +15,19 @@ html {
 .game-container {}
 
 #gamescore {
-    height: 10vh;
+    height: 15vh;
 }
 
 #hidden-letters {
-    height: 30vh;
+    height: 10vh;
 }
 
 #keyboard {
-    height: 30vh;
+    height: 40vh;
 }
 
 #hangman {
-    height: 60vh;
+    height: 40vh;
 }
 
 

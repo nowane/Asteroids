@@ -39,32 +39,33 @@
             </div>
         </div>
 
+        <!-- Hidden letter section -->
         <div class="container-fluid container-deep-purple">
             <div class="row justify-content-center">
-                <div class="col-8">
-                    <div class="row">
-
-                        <div class="col-7 container-light-purple mt-3 ps-0">
-                            <!-- Hidden letter section -->
-                            <div id="hidden-letters" class="d-block border own-border">LETTERS</div>
-
-                            <!-- interactive keyboard section -->
-                            <div id="user-keyboard-input" class="container-fluid text-center border own-border">
-                                <!-- Form input based on https://codepen.io/W0Sabi/pen/VNwPzr  -->
-                                <form name="inputUser" id="inputUser">
-                                    <input type="text" size="10" maxlength="1" name="guess" id="guessUser"
-                                        placeholder="Enter guess here" />
-                                    <button onclick="validateGuessForm()" class="btn-general">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-
-                        <!-- Hangman section -->
-                        <div id="hangman" class="col-5 d-inline-block container-light-purple mt-3 border own-border">
-                            HANGMAN</div>
-
-                    </div>
+                <div id="hidden-letters"
+                    class="col-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
+                    HIDDEN LETTERS
                 </div>
+            </div>
+        </div>
+
+        <div class="container-fluid row container-deep-purple text-center justify-content-center no-mp">
+            <!-- interactive keyboard section -->
+            <div id="user-keyboard-input" class="col-4 d-block container-light-purple text-center mt-4 border own-border">
+
+                <div class="user-input-form">
+                    <!-- Form input based on https://codepen.io/W0Sabi/pen/VNwPzr  -->
+                    <form name="inputUser" id="inputUser" class="d-inline-block">
+                        <input type="text" size="10" maxlength="1" name="guess" id="guessUser"
+                            placeholder="Enter guess here" />
+                        <button onclick="validateGuessForm()" class="btn-general">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Hangman section -->
+            <div id="hangman" class="col-4 d-block container-light-purple mt-4 border own-border">
+                HANGMAN
             </div>
         </div>
     </div>
@@ -124,11 +125,6 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
@@ -139,7 +135,9 @@
             emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
         })();
     </script>
+    
     <script src="assets/js/email.js"></script>
+    <script src="assets/js/input.js"></script>
 </body>
 
 </html>
