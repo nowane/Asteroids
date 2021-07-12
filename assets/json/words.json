@@ -302,4 +302,54 @@
         "difficulty": "hard",
         "category": "food"
     },
+    {
+        "word": "Togo",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Fiji",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Spain",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Peru",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Oman",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Niger",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Nepal",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Mali",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Malta",
+        "difficulty": "easy",
+        "category": "countries"
+    },
+    {
+        "word": "Iran",
+        "difficulty": "easy",
+        "category": "countries"
+    },
 ]
