@@ -506,6 +506,52 @@
         "difficulty": "easy",
         "category": "periodic-table"
     },
+    {
+        "word": "titanium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
+    {
+        "word": "magnesium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },    {
+        "word": "strontium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
+    {
+        "word": "potassium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },    {
+        "word": "barium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
+    {
+        "word": "radium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },    {
+        "word": "chromium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
+    {
+        "word": "cobalt",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },    {
+        "word": "thorium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
+    {
+        "word": "zirconium",
+        "difficulty": "medium",
+        "category": "periodic-table"
+    },
 
 
 
