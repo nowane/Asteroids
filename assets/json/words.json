@@ -352,4 +352,55 @@
         "difficulty": "easy",
         "category": "countries"
     },
+    {
+        "word": "Algeria",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Albania",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Belgium",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Bolivia",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Mauritius",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Ecuador",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Finland",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Guinea",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Ireland",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+    {
+        "word": "Kuwait",
+        "difficulty": "medium",
+        "category": "countries"
+    },
+
 ]
