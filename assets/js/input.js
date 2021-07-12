@@ -1,1 +1,1 @@
-validateForm()
+validateGuessForm()
