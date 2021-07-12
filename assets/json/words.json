@@ -402,5 +402,55 @@
         "difficulty": "medium",
         "category": "countries"
     },
+    {
+        "word": "Uzbekistan",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Turkmenistan",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Bangladesh",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Seychelles",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Philippines",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Mozambique",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Liechtenstein",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Kyrgyzstan",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Eswatini",
+        "difficulty": "hard",
+        "category": "countries"
+    },
+    {
+        "word": "Djibouti",
+        "difficulty": "hard",
+        "category": "countries"
+    },
 
 ]
