@@ -6,12 +6,12 @@ function sendMail(contact) {
         })
         .then(
             function (response) {
-                console.log("SUCCESS", response);
+                alert("SUCCESSFUL!", response);
             },
             function (error) {
-                console.log("FAILED", error);
+                alert("FAILURE!", error);
             },
-            document.getElementById("contactForm").reset());
-        ;
+
+            document.getElementById("contactForm").reset());;
     return false; // To block loading a new page after submit
 }
