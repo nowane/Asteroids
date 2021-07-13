@@ -3,7 +3,7 @@
 body {
     font-family: Roboto-Mono, Space-Mono;
     font-weight: 300;
-    color: #EE5622;
+    color: #ECA72C;
 }
 
 /* ========== CONTAINERS */
@@ -52,7 +52,7 @@ html {
 /* ========== BORDERS */
 
 .own-border {
-    border-color: #EE5622 !important;
+    border-color: #ECA72C !important;
     border-style: solid;
 }
 
@@ -62,17 +62,17 @@ button {
     background: none;
     border: 2px solid;
     margin: 0.3rem;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
 .btn-general {
-    color: #EE5622;
+    color: #ECA72C;
     transition: 0.25s;
 }
 
 .btn-general:hover {
-    color: #ECA72C;
-}
+    color: #EE5622;
+} 
 
 div #keyboard button {
     width: 44px;
@@ -90,6 +90,17 @@ div div div div .play-again {
     text-align: center;
 }
 
+i {
+    font-size: 2rem;
+    margin: 0.3rem;
+    color: #ECA72C;
+    transition: 0.25s;
+}
+
+i:hover {
+    color: #EE5622;
+}
+
 /* ========== HEADER(S) */
 
 h1,
@@ -105,16 +116,11 @@ h6 {
     padding: 1rem;
     border-bottom: 1px solid;
     background-color: #221E22;
-    color: #EE5622;
+    color: #ECA72C;
 }
 
 #h1-heading {
     font-size: 3rem;
-}
-
-.header-footer-color {
-    background-color: #221E22;
-    color: #EE5622;
 }
 
 /* ========== NAVIGATION */
@@ -140,10 +146,15 @@ h6 {
 /* ========== FOOTER */
 
 #footer {
-    padding: 1rem;
     border-top: 1px solid;
     background-color: #221E22;
-    color: #EE5622;
+    color: #ECA72C;
+    text-align: center;
+}
+
+footer div div p {
+    margin: 0;
+    padding: 0;
 }
 
 /* ========== CONTACT MODAL */
