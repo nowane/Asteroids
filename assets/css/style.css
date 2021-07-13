@@ -141,6 +141,10 @@ h6 {
 
 /* ========== HANGMAN */
 
+#hangman {
+    border: #ECA72C !important;
+}
+
 .figure-container {
     fill: transparent;
     stroke: #ECA72C;
