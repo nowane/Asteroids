@@ -23,23 +23,23 @@ html {
 .game-container {}
 
 #gamescore {
-    height: 15vh;
+
 }
 
 #hiddenLetters {
-    height: 10vh;
+
 }
 
 #keyboard {
-    height: 35vh;
+
 }
 
 #hangman {
-    height: 40vh;
+
 }
 
 .play-again-container {
-    height: 5vh;
+
 }
 
 /* ========== GENERAL MARGINS/PADDINGS */
