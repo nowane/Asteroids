@@ -170,6 +170,7 @@ footer div div p {
 .modal input, .modal textarea {
     background-color: #44355B;
     color: white;
+    font-weight: 700;
 }
 
 .modal form input:focus, .modal form textarea:focus {
@@ -177,7 +178,17 @@ footer div div p {
     color: white;
 }
 
-::placeholder {
+.modal ::placeholder {
     font-size: 0.8em;
     text-align: center;
+    color: white;
 }
+
+.modal-header {
+    border-bottom: 1px solid #ECA72C;;
+}
+
+.modal-footer {
+    border-top: 1px solid #ECA72C;
+}
+
