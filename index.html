@@ -36,7 +36,7 @@
     </header>
 
     <!-- Game container -->
-    <div class="game-container">
+    <div id="game-container">
         <!-- Gamescore section-->
         <div class="container-fluid container-deep-purple">
             <div class="row justify-content-center">
@@ -61,57 +61,51 @@
             </div>
         </div>
 
-        <div id="keyboard-hangman"
-            class="container-fluid row container-deep-purple text-center justify-content-center no-mp">
-            <!-- interactive keyboard section -->
-            <div class="col-sm-12 col-md-4">
-                <div class="row d-block container-light-purple text-center mt-4 border own-border">
-                    <div id="keyboard"></div>
-                    <div class="row play-again-container d-inline-block">
-                        <div>
-                            <button class="btn-general play-again">Play
-                                Again
-                            </button>
-                        </div>
-                    </div>
+        <div id="keyboard-hangman" class="container-fluid row container-deep-purple justify-content-center g-0">
+            <!-- Interactive keyboard section -->
+            <div id="keyboard" class="col-sm-12 col-md-4 d-inline-block border own-border container-light-purple">
+                <div class="row play-again-container d-inline-block">
+                    <button class="btn-general play-again">Play
+                        Again
+                    </button>
                 </div>
             </div>
+
             <!-- Hangman section -->
-            <div class="d-block col-sm-12 col-md-4">
-                <div id="hangman" class="col-4 d-block container-light-purple mt-4 border own-border">
+            <div class="col-md-4 d-block justify-content-center">
+                <div id="hangman" class="col-4 d-block container-light-purple border own-border">
 
-                        <!-- Guideline for figuring out SVG https://www.youtube.com/watch?v=09sezPlWWO0  -->
-                        <svg class="figure-container" width="400" height="300">
+                    <!-- Guideline for figuring out SVG https://www.youtube.com/watch?v=09sezPlWWO0  -->
+                    <svg class="figure-container" x="0" y="0" width="100%" height="100%" viewbox="0 0 400 300">
 
-                            <!-- Rod -->
-                            <line x1="40" y1="280" x2="360" y2="280" class="figure-part" />
-                            <line x1="120" y1="280" x2="120" y2="20" class="figure-part" />
-                            <line x1="120" y1="20" x2="260" y2="20" class="figure-part" />
-                            <line x1="260" y1="20" x2="260" y2="50" class="figure-part" />
+                        <!-- Rod -->
+                        <line x1="40" y1="280" x2="360" y2="280" class="figure-part" />
+                        <line x1="120" y1="280" x2="120" y2="20" class="figure-part" />
+                        <line x1="120" y1="20" x2="260" y2="20" class="figure-part" />
+                        <line x1="260" y1="20" x2="260" y2="50" class="figure-part" />
 
-                            <!-- FIGURE Head -->
-                            <circle cx="260" cy="75" r="25" class="figure-part" />
+                        <!-- Figure head -->
+                        <circle cx="260" cy="75" r="25" class="figure-part" />
 
-                            <!-- Figure body -->
-                            <line x1="260" y1="100" x2="260" y2="180" class="figure-part" />
+                        <!-- Figure body -->
+                        <line x1="260" y1="100" x2="260" y2="180" class="figure-part" />
 
-                            <!-- Figure arms -->
-                            <line x1="260" y1="120" x2="210" y2="100" class="figure-part" />
-                            <line x1="260" y1="120" x2="310" y2="100" class="figure-part" />
+                        <!-- Figure arms -->
+                        <line x1="260" y1="120" x2="210" y2="100" class="figure-part" />
+                        <line x1="260" y1="120" x2="310" y2="100" class="figure-part" />
 
-                            <!-- Figure legs -->
-                            <line x1="260" y1="180" x2="200" y2="220" class="figure-part" />
-                            <line x1="260" y1="180" x2="320" y2="220" class="figure-part" />
+                        <!-- Figure legs -->
+                        <line x1="260" y1="180" x2="200" y2="220" class="figure-part" />
+                        <line x1="260" y1="180" x2="320" y2="220" class="figure-part" />
 
-                        </svg>
-
+                    </svg>
                 </div>
             </div>
         </div>
     </div>
 
     <footer id="footer" class="fixed-bottom">
-        <div class="container-fluid row align-items-center text-center g-0">
+        <div class="container-fluid row align-items-center text-center">
 
             <!-- Button trigger contact modal -->
             <div class="col-sm-12 col-md-4 text-center">

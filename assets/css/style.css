@@ -35,7 +35,8 @@ html {
 }
 
 #hangman {
-
+    height: 40vh;
+    width: 100%;
 }
 
 .play-again-container {
@@ -140,10 +141,6 @@ h6 {
 
 
 /* ========== HANGMAN */
-
-#hangman {
-    border: #ECA72C !important;
-}
 
 .figure-container {
     fill: transparent;
