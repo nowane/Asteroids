@@ -14,6 +14,4 @@ function generateButtons() {
   document.getElementById('keyboard').innerHTML = buttonsHTML;
 }
 
-
-
 generateButtons();
