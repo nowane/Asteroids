@@ -22,6 +22,7 @@
 
     <!-- Link to css style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Hangman</title>
 </head>
 
@@ -51,19 +52,24 @@
         </div>
 
         <!-- Hidden letter section -->
-        <div class="container-fluid container-deep-purple">
+        <div id="hidden-letters" class="container-fluid container-deep-purple">
             <div class="row justify-content-center">
-                <div id="hidden-letters"
-                    class="col-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
-                    HIDDEN LETTERS
+                <div class="col-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
+                    <div id="hiddenLetters">HIDDEN LETTERS</div>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid row container-deep-purple text-center justify-content-center no-mp">
             <!-- interactive keyboard section -->
-            <div id="keyboard" class="col-4 d-block container-light-purple text-center mt-4 border own-border">
-
+            <div class="col-4">
+                <div class="d-block container-light-purple text-center mt-4 border own-border">
+                    <div id="keyboard"></div>
+                        <button
+                            class="btn-general play-again position-relative bottom-0 start-50 translate-middle-x">Play
+                            Again
+                        </button>                   
+                </div>
             </div>
             <!-- Hangman section -->
             <div id="hangman" class="col-4 d-block container-light-purple mt-4 border own-border">
@@ -140,6 +146,7 @@
 
     <script src="assets/js/email.js"></script>
     <script src="assets/js/input.js"></script>
+
 </body>
 
 </html>
