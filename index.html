@@ -60,20 +60,26 @@
             </div>
         </div>
 
-        <div class="container-fluid row container-deep-purple text-center justify-content-center no-mp">
+        <div id="keyboard-hangman"
+            class="container-fluid row container-deep-purple text-center justify-content-center no-mp">
             <!-- interactive keyboard section -->
             <div class="col-4">
-                <div class="d-block container-light-purple text-center mt-4 border own-border">
+                <div class="row d-block container-light-purple text-center mt-4 border own-border">
                     <div id="keyboard"></div>
-                        <button
-                            class="btn-general play-again position-relative bottom-0 start-50 translate-middle-x">Play
-                            Again
-                        </button>                   
+                    <div class="row play-again-container d-inline-block">
+                        <div>
+                            <button class="btn-general play-again">Play
+                                Again
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Hangman section -->
-            <div id="hangman" class="col-4 d-block container-light-purple mt-4 border own-border">
-                HANGMAN
+            <div class="col-4 d-block">
+                <div id="hangman" class="col-4 d-block container-light-purple mt-4 border own-border">
+                    HANGMAN
+                </div>
             </div>
         </div>
     </div>

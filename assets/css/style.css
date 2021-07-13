@@ -26,18 +26,21 @@ html {
     height: 15vh;
 }
 
-#hidden-letters {
+#hiddenLetters {
     height: 10vh;
 }
 
 #keyboard {
-    height: 40vh;
+    height: 35vh;
 }
 
 #hangman {
     height: 40vh;
 }
 
+.play-again-container {
+    height: 5vh;
+}
 
 /* ========== GENERAL MARGINS/PADDINGS */
 
@@ -78,6 +81,13 @@ div #keyboard button {
     text-align: center;
     font-size: 1.3em;
     margin: 2px;
+}
+
+div div div div .play-again {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    align-self: center;
+    text-align: center;
 }
 
 /* ========== HEADER(S) */
