@@ -107,10 +107,10 @@
     <!-- Based on Bootstraps modal https://getbootstrap.com/docs/5.0/components/modal/ -->
     <!-- Contact modal -->
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog border own-border">
             <div class="modal-content">
                 <div class="container-fluid modal-header header-footer-color">
-                    <div class="container text-center">
+                    <div class="container text-center border own-border">
                         <h5 class="modal-title" id="contactModalLabel">Contact</h5>
                     </div>
                 </div>
@@ -118,13 +118,13 @@
                 <form onsubmit="return sendMail(this);" id="contactForm" class="text-center">
                     <div class="modal-body">
                         <label for="fullname">Full Name:</label>
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name"
+                        <input type="text" name="name" class="form-control border own-border" id="fullname" placeholder="Full Name"
                             required />
                         <label for="email">E-mail Address:</label>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                        <input type="text" name="emailaddress" class="form-control border own-border" id="emailaddress"
                             placeholder="Email Address" required />
                         <label for="message">Message:</label>
-                        <textarea rows="3" name="message" class="form-control" id="message" placeholder="Message"
+                        <textarea rows="3" name="message" class="form-control border own-border" id="message" placeholder="Message"
                             required></textarea>
                     </div>
                     <div class="container-fluid modal-footer header-footer-color">

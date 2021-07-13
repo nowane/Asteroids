@@ -159,6 +159,24 @@ footer div div p {
 
 /* ========== CONTACT MODAL */
 
+.header-footer-color {
+    background-color: #221E22;;
+}
+
+.modal-body {
+    background-color: #31263E;
+}
+
+.modal input, .modal textarea {
+    background-color: #44355B;
+    color: white;
+}
+
+.modal form input:focus, .modal form textarea:focus {
+    background-color: #EE5622;
+    color: white;
+}
+
 ::placeholder {
     font-size: 0.8em;
     text-align: center;
