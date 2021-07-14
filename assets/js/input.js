@@ -1,6 +1,6 @@
 // Create keyboard buttons on-screen
-function generateTopButtons() {
-  let buttonsHTML = 'QWERTYUIOP'.split('').map(letter =>
+function generateButtons() {
+  let buttonsTopHTML = 'QWERTYUIOP'.split('').map(letter =>
     `
       <button 
         class="btn-general mx-auto"
@@ -11,11 +11,7 @@ function generateTopButtons() {
       </button>
     `).join('');
 
-  document.getElementById('generateTopRow').innerHTML = buttonsHTML;
-}
-
-function generateMiddleButtons() {
-  let buttonsHTML = 'ASDFGHJKL'.split('').map(letter =>
+  let buttonsMiddleHTML = 'ASDFGHJKL'.split('').map(letter =>
     `
       <button 
         class="btn-general mx-auto"
@@ -26,11 +22,7 @@ function generateMiddleButtons() {
       </button>
     `).join('');
 
-  document.getElementById('generateMiddleRow').innerHTML = buttonsHTML;
-}
-
-function generateBottomButtons() {
-  let buttonsHTML = 'ZXCVBNM'.split('').map(letter =>
+  let buttonsBottomHTML = 'ZXCVBNM'.split('').map(letter =>
     `
       <button 
         class="btn-general mx-auto"
@@ -41,9 +33,9 @@ function generateBottomButtons() {
       </button>
     `).join('');
 
-  document.getElementById('generateBottomRow').innerHTML = buttonsHTML;
+  document.getElementById('generateTopRow').innerHTML = buttonsTopHTML;
+  document.getElementById('generateMiddleRow').innerHTML = buttonsMiddleHTML;
+  document.getElementById('generateBottomRow').innerHTML = buttonsBottomHTML;
 }
 
-generateTopButtons();
-generateMiddleButtons();
-generateBottomButtons();
+generateButtons();
