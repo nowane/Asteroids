@@ -53,6 +53,55 @@ const animals = [
     difficulty: "easy",
     category: "animals"
 },
-
+{
+    word: "chicken",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "monkey",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "rabbit",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "camel",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "cheetah",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "coyote",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "eagle",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "elephant",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "giraffe",
+    difficulty: "medium",
+    category: "animals"
+},
+{
+    word: "hamster",
+    difficulty: "medium",
+    category: "animals"
+},
 
 ]
