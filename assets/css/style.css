@@ -26,8 +26,8 @@ html {
 
 }
 
-#hiddenLetters {
-
+#hidden-letters {
+    height: 10vh;
 }
 
 #keyboard {
