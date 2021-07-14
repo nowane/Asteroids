@@ -457,3 +457,155 @@ const countries = [{
         category: "countries"
     },
 ]
+
+const elements = [{
+        word: "hydrogen",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "sodium",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+
+    {
+        word: "calcium",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "lithium",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+
+    {
+        word: "carbon",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "oxygen",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+
+    {
+        word: "sulfur",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "iodine",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+
+    {
+        word: "lead",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "aluminium",
+        difficulty: "easy",
+        category: "periodic-table"
+    },
+    {
+        word: "titanium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "magnesium",
+        difficulty: "medium",
+        category: "periodic-table"
+    }, {
+        word: "strontium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "potassium",
+        difficulty: "medium",
+        category: "periodic-table"
+    }, {
+        word: "barium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "radium",
+        difficulty: "medium",
+        category: "periodic-table"
+    }, {
+        word: "chromium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "cobalt",
+        difficulty: "medium",
+        category: "periodic-table"
+    }, {
+        word: "thorium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "zirconium",
+        difficulty: "medium",
+        category: "periodic-table"
+    },
+    {
+        word: "rutherfordium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "tellurium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "oganesson",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "praseodymium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "mendelevium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "livermorium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "protactinium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "ytterbium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "technetium",
+        difficulty: "hard",
+        category: "periodic-table"
+    },
+    {
+        word: "gadolinium",
+        difficulty: "hard",
+        category: "periodic-table"
+    }
+]
