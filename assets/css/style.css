@@ -39,8 +39,12 @@ html {
     width: 100%;
 }
 
-.play-again-container {
+#wrapper {
 
+}
+
+.play-again-container {
+  
 }
 
 /* ========== GENERAL MARGINS/PADDINGS */
@@ -137,6 +141,11 @@ h6 {
 
 /* ========== KEYBOARD */
 
+#game-container div #keyboard #generateTopRow button,
+#game-container div #keyboard #generateMiddleRow button,
+#game-container div #keyboard #generateBottomRow button {
+
+}
 
 
 /* ========== HANGMAN */
