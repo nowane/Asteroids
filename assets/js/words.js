@@ -103,5 +103,54 @@ const animals = [
     difficulty: "medium",
     category: "animals"
 },
-
+{
+    word: "grasshopper",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "armadillo",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "caribou",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "cockroach",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "hedgehog",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "hippopotamus",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "hummingbird",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "nightingale",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "porcupine",
+    difficulty: "hard",
+    category: "animals"
+},
+{
+    word: "rhinoceros",
+    difficulty: "hard",
+    category: "animals"
+},
 ]
