@@ -256,5 +256,54 @@ const foods = [
         difficulty: "medium",
         category: "food"
     },
-
+    {
+        word: "asparagus",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "zucchini",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "hollandaise",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "fettuccine",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "macaron",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "edamame",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "charcuterie",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "bouillabaisse",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "tzatziki",
+        difficulty: "hard",
+        category: "food"
+    },
+    {
+        word: "bourguignon",
+        difficulty: "hard",
+        category: "food"
+    },
 ]
