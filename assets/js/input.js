@@ -1,6 +1,6 @@
 // Create keyboard buttons on-screen
-function generateButtons() {
-  let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
+function generateTopButtons() {
+  let buttonsHTML = 'QWERTYUIOP'.split('').map(letter =>
     `
       <button 
         class="btn-general mx-auto"
@@ -11,7 +11,39 @@ function generateButtons() {
       </button>
     `).join('');
 
-  document.getElementById('keyboard').innerHTML = buttonsHTML;
+  document.getElementById('generateTopRow').innerHTML = buttonsHTML;
 }
 
-generateButtons();
+function generateMiddleButtons() {
+  let buttonsHTML = 'ASDFGHJKL'.split('').map(letter =>
+    `
+      <button 
+        class="btn-general mx-auto"
+        id='` + letter + `'
+        onClick="handleGuess('` + letter + `')"
+      >
+        ` + letter + `
+      </button>
+    `).join('');
+
+  document.getElementById('generateMiddleRow').innerHTML = buttonsHTML;
+}
+
+function generateBottomButtons() {
+  let buttonsHTML = 'ZXCVBNM'.split('').map(letter =>
+    `
+      <button 
+        class="btn-general mx-auto"
+        id='` + letter + `'
+        onClick="handleGuess('` + letter + `')"
+      >
+        ` + letter + `
+      </button>
+    `).join('');
+
+  document.getElementById('generateBottomRow').innerHTML = buttonsHTML;
+}
+
+generateTopButtons();
+generateMiddleButtons();
+generateBottomButtons();
