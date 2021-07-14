@@ -53,8 +53,7 @@ html {
 /* ========== BORDERS */
 
 .own-border {
-    border-color: #ECA72C !important;
-    border-style: solid;
+    border: 1px solid #ECA72C  !important;
 }
 
 /* ========== BUTTONS */

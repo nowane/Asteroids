@@ -41,7 +41,7 @@
         <div class="container-fluid container-deep-purple">
             <div class="row justify-content-center">
                 <div id="gamescore-container"
-                    class="col-sm-12 col-md-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
+                    class="col-sm-12 col-md-8 d-inline-block game-info text-center container-light-purple mt-4 own-border">
                     <div class="gamescore">
                         <h2>Gamescore</h2>
                         <div class="float-center">Game Score: Win: <span id="win">0</span> - Lose: <span
@@ -55,7 +55,7 @@
         <div id="hidden-letters" class="container-fluid container-deep-purple">
             <div class="row justify-content-center">
                 <div
-                    class="col-sm-12 col-md-8 d-inline-block game-info text-center container-light-purple mt-4 border own-border">
+                    class="col-sm-12 col-md-8 d-inline-block game-info text-center container-light-purple mt-4 own-border">
                     <div id="hiddenLetters">HIDDEN LETTERS</div>
                 </div>
             </div>
@@ -63,20 +63,25 @@
 
         <div id="keyboard-hangman" class="container-fluid row container-deep-purple justify-content-center g-0">
             <!-- Interactive keyboard section -->
-            <div id="keyboard" class="col-sm-12 col-md-4 d-inline-block border own-border container-light-purple order-2 order-md-1">
-                <div id="generateTopRow" class="container d-flex"></div>
-                <div id="generateMiddleRow" class="container d-flex"></div>
-                <div id="generateBottomRow" class="container d-flex"></div>
-                <div class="row play-again-container">
-                    <button class="btn-general play-again">Play
-                        Again
-                    </button>
+            <div id="keyboard"
+                class="col-sm-12 col-md-4 d-inline-block own-border container-light-purple order-2 order-md-1 text-center">
+                <div id="generateTopRow" class=" d-flex "></div>
+                <div id="generateMiddleRow" class=" d-flex"></div>
+                <div id="generateBottomRow" class=" d-flex"></div>
+                <div class="row flex-1">
+                    <div class="play-again-container d-flex flex-column">
+                        <button class="btn-general play-again">Play
+                            Again
+                        </button>
+                    </div>
                 </div>
+
             </div>
+
 
             <!-- Hangman section -->
             <div class="col-md-4 d-block justify-content-center order-1 order-md-2">
-                <div id="hangman" class="col-4 d-block container-light-purple border own-border">
+                <div id="hangman" class="col-4 d-block container-light-purple own-border">
 
                     <!-- Guideline for figuring out SVG https://www.youtube.com/watch?v=09sezPlWWO0  -->
                     <svg class="figure-container" x="0" y="0" width="100%" height="100%" viewbox="0 0 400 300">
@@ -130,7 +135,7 @@
     <!-- Based on Bootstraps modal https://getbootstrap.com/docs/5.0/components/modal/ -->
     <!-- Contact modal -->
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog border own-border">
+        <div class="modal-dialog own-border">
             <div class="modal-content">
                 <div class="container-fluid modal-header header-footer-color">
                     <div class="container text-center">
@@ -141,13 +146,13 @@
                 <form onsubmit="return sendMail(this);" id="contactForm" class="text-center">
                     <div class="modal-body">
                         <label for="fullname">Full Name:</label>
-                        <input type="text" name="name" class="form-control border own-border" id="fullname"
+                        <input type="text" name="name" class="form-contro own-border" id="fullname"
                             placeholder="Full Name" required />
                         <label for="email">E-mail Address:</label>
-                        <input type="text" name="emailaddress" class="form-control border own-border" id="emailaddress"
+                        <input type="text" name="emailaddress" class="form-control own-border" id="emailaddress"
                             placeholder="Email Address" required />
                         <label for="message">Message:</label>
-                        <textarea rows="3" name="message" class="form-control border own-border" id="message"
+                        <textarea rows="3" name="message" class="form-control own-border" id="message"
                             placeholder="Message" required></textarea>
                     </div>
                     <div class="container-fluid modal-footer header-footer-color">
