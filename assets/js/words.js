@@ -154,3 +154,57 @@ const animals = [
     category: "animals"
 },
 ]
+
+const foods = [
+    {
+        word: "chips",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "carrot",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "cheese",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "pizza",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "milk",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "honey",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "coffee",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "butter",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "cake",
+        difficulty: "easy",
+        category: "food"
+    },
+    {
+        word: "bread",
+        difficulty: "easy",
+        category: "food"
+    },
+    
+]
