@@ -206,5 +206,55 @@ const foods = [
         difficulty: "easy",
         category: "food"
     },
-    
+    {
+        word: "oister",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "lettuce",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "sausage",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "dumpling",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "broccoli",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "mushroom",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "sandwich",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "watermelon",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "milkshake",
+        difficulty: "medium",
+        category: "food"
+    },
+    {
+        word: "risotto",
+        difficulty: "medium",
+        category: "food"
+    },
+
 ]
