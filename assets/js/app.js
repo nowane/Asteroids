@@ -20,6 +20,19 @@ function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 }
 
+// Handle chosen letter input 
+function handleGuess(letterChosen) {
+    // If chosen letter doesn't excist - push letter into array
+    guessedLetters.indexOf(letterChosen) === -1 ? guessedLetters.push(letterChosen) : null;
+    // Disable buttons after they have been chosen
+    document.getElementById(letterChosen).setAttribute('disabled', true);
+
+    // If chosen letter excists - update letters
+    if (hiddenWord.indexOf(letterChosen) >= 0) {
+        guessedWord();
+    }
+}
+
 // Display hidden word on screen 
 function guessedWord() {
     // map() creates new array in hiddenWord populated with the results of calling currentWord
