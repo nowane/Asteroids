@@ -27,7 +27,7 @@ function guessedWord() {
         // Check if letter excists in array - if positive, points to position
         (guessedLetters.indexOf(letter) >= 0 ? letter : " _ ")).join('');
 
-    // Display the hidden letters of the generated word as undercores in screen
+    // Display the hidden letters of the generated word as undercores on screen
     document.getElementById('hiddenLetters').innerHTML = currentWord;
 }
 

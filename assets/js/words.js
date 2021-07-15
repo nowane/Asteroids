@@ -1,3 +1,10 @@
+// 4 arrays containing objects: "animals", "foods", "countries" and "elements"
+// Each array contains 3 {name: "value"} pairs
+// The names are "word", "difficulty" and "category"
+// The value pairing "word" is always different
+// The value pairing "difficulty" is either "easy", "medium" or "hard" 
+// The value pairing "category" is equal to the current array
+
 const animals = [{
         word: "lion",
         difficulty: "easy",
