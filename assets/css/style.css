@@ -105,6 +105,12 @@ i:hover {
     color: #EE5622;
 }
 
+:disabled {
+    background-color: #31263E;
+    color: #EE5622;
+    border-color: #221E22;
+}
+
 /* ========== HEADER(S) */
 
 .page-header {
