@@ -46,9 +46,12 @@ function handleGuess(letterChosen) {
 function checkWin() {
     // If letter input is equal to the hidden letters - you win
     if (currentWord === hiddenWord) {
+        // Messae shown when won
         document.getElementById("keyboard").innerHTML = "You Win!";
 
+        // Add +1 to win
         win = win + 1;
+        // Update html
         document.getElementById("win").innerHTML = win;
     }
 };
@@ -57,9 +60,15 @@ function checkWin() {
 function checkLost() {
     // If wrong letter input is equal to maximum allowed wrong amount of letters - you lose
     if (wrongGuesses === maximumWrong) {
-        document.getElementById("keyboard").innerHTML = "You Lose!";
 
+        // Message shown when lost
+        document.getElementById("keyboard").innerHTML = "You Lose!";
+        // Answer shown whwn lose
+        document.getElementById("hiddenLetters").innerHTML = "The answer was " + hiddenWord;
+
+        // Add +1 to lost
         lost = lost + 1;
+        // Update html
         document.getElementById("lost").innerHTML = lost;
     }
 };
