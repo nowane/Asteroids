@@ -3,15 +3,18 @@ let words = [
     "monkey", "banana", "chimp", "tree", "zoo", 
 ]
 
-// Declared variables
-let hiddenWord = "";
-let maximumWrong = 9;
-let wrongGuesses = 0;
-let guessedLetters = [];
-let currentWord = null;
+//  Declared variables for HTML elements on the page to manipulate later
+let currentWord = null;  // Current word - to be generated
+let hiddenWord = "";  // Current word - split into individual letters
+let wrongGuesses = 0;  // Wrong guesses
+let maximumWrong = 9;  // Max wrong guesses
+let guessedLetters = [];  // User input - guessed letters
 
+// Variables for keeping score
+let win = 0;
+let lose = 0;
 
-// Random word generation out of words array
+// Random word generator out of words array
 function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 }
@@ -73,15 +76,15 @@ function updateWrongGuesses() {
 
 // Play again - reset data
 function rePlay() {
-    wrongGuesses = 0;
-    guessedLetters = [];
+    wrongGuesses = 0;  // Reset wrong guesses
+    guessedLetters = [];  // Reset guessed letters
 
 
     // Hangman to be added
 
-    updateWrongGuesses();
-    guessedWord();
-    generateWord();
+    updateWrongGuesses();  // Update wrong guesses on screen to starting value
+    guessedWord();  // Display hidden word on screen to starting value
+    generateWord();  // Generate new random word
 }
 
 
