@@ -27,9 +27,16 @@ function handleGuess(letterChosen) {
         // Disable buttons after they have been chosen
     document.getElementById(letterChosen).setAttribute("disabled", true);
 
-      // If chosen letter excists - update letters
+      // If chosen letter excists 
     if (hiddenWord.indexOf(letterChosen) >= 0) {
+        // Update letters
       guessedWord();
+    // if chosen letter does not excist
+    } else if (hiddenWord.indexOf(letterChosen) === -1 ) {
+        // Add +1 to wrong guesses
+        wrongGuesses++;
+        // Update the number on screen
+        updateWrongGuesses();
     }
 }
 
