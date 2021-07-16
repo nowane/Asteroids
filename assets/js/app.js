@@ -1,18 +1,18 @@
 // Test to see if letters show up
 let words = [
-    "monkey", "banana", "chimp", "tree", "zoo", 
+    "monkey", "banana", "chimp", "tree", "zoo",
 ]
 
 //  Declared variables for HTML elements on the page to manipulate later
-let currentWord = null;  // Current word - to be generated
-let hiddenWord = "";  // Current word - split into individual letters
-let wrongGuesses = 0;  // Wrong guesses
-let maximumWrong = 9;  // Max wrong guesses
-let guessedLetters = [];  // User input - guessed letters
+let currentWord = null; // Current word - to be generated
+let hiddenWord = ""; // Current word - split into individual letters
+let wrongGuesses = 0; // Wrong guesses
+let maximumWrong = 9; // Max wrong guesses
+let guessedLetters = []; // User input - guessed letters
 
 // Variables for keeping score
 let win = 0;
-let lose = 0;
+let lost = 0;
 
 // Random word generator out of words array
 function generateWord() {
@@ -46,7 +46,7 @@ function handleGuess(letterChosen) {
 function checkWin() {
     // If letter input is equal to the hidden letters - you win
     if (currentWord === hiddenWord) {
-        document.getElementById("keyboard").innerHTML = ("You Win!")
+        document.getElementById("keyboard").innerHTML = "You Win!";
 
         win = win + 1;
         document.getElementById("win").innerHTML = win;
@@ -56,10 +56,13 @@ function checkWin() {
 // Check if game was lost
 function checkLost() {
     // If wrong letter input is equal to maximum allowed wrong amount of letters - you lose
-        if (wrongGuesses === maximumWrong) {
-            document.getElementById("keyboard").innerHTML = "You Lose!"
-        }
-    };
+    if (wrongGuesses === maximumWrong) {
+        document.getElementById("keyboard").innerHTML = "You Lose!";
+
+        lost = lost + 1;
+        document.getElementById("lost").innerHTML = lost;
+    }
+};
 
 // Display hidden word on screen 
 function guessedWord() {
@@ -79,15 +82,15 @@ function updateWrongGuesses() {
 
 // Play again - reset data
 function rePlay() {
-    wrongGuesses = 0;  // Reset wrong guesses
-    guessedLetters = [];  // Reset guessed letters
+    wrongGuesses = 0; // Reset wrong guesses
+    guessedLetters = []; // Reset guessed letters
 
 
     // Hangman to be added
 
-    updateWrongGuesses();  // Update wrong guesses on screen to starting value
-    guessedWord();  // Display hidden word on screen to starting value
-    generateWord();  // Generate new random word
+    updateWrongGuesses(); // Update wrong guesses on screen to starting value
+    guessedWord(); // Display hidden word on screen to starting value
+    generateWord(); // Generate new random word
     generateButtons();
 }
 
