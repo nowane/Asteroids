@@ -47,6 +47,14 @@ function checkWin() {
     }
 };
 
+// Check if game was lost
+function checkLost() {
+    // If wrong letter input is equal to maximum allowed wrong amount of letters - you lose
+        if (wrongGuesses === maximumWrong) {
+            document.getElementById("keyboard").innerHTML = "You Lose!"
+        }
+    };
+
 // Display hidden word on screen 
 function guessedWord() {
     // map() creates new array in hiddenWord populated with the results of calling currentWord
