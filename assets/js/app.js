@@ -1,11 +1,7 @@
 // Test to see if letters show up
 let words = [
-    "monkey",
-    "banana",
-    "zoo",
-    "chimp",
-    "bokito",
-];
+    "monkey", "banana", "chimp", "tree", "zoo", 
+]
 
 // Declared variables
 let hiddenWord = "";
@@ -31,14 +27,25 @@ function handleGuess(letterChosen) {
     if (hiddenWord.indexOf(letterChosen) >= 0) {
         // Update letters
         guessedWord();
+        checkWin();
         // if chosen letter does not excist
     } else if (hiddenWord.indexOf(letterChosen) === -1) {
         // Add +1 to wrong guesses
         wrongGuesses++;
         // Function to update the number of wrong guesses
         updateWrongGuesses();
+
+        checkLost();
     }
 }
+
+// Check if game was won
+function checkWin() {
+    // If letter input is equal to the hidden letters - you win
+    if (currentWord === hiddenWord) {
+        document.getElementById("keyboard").innerHTML = "You Win!"
+    }
+};
 
 // Display hidden word on screen 
 function guessedWord() {
