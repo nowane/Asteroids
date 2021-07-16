@@ -80,6 +80,10 @@ Sounds | 2 | 2
 
   #### Colour Scheme
 
+The following are the colours used for this project, based on a schematic provided by [Coolors](https://coolors.co/) /
+
+[Color Schema](assets/images/colour-scheme.png)
+
 [Back to Table of Content](#table-of-content)
 
   #### Typography
