@@ -71,7 +71,18 @@ function updateWrongGuesses() {
     document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
 }
 
+// Play again - reset data
+function rePlay() {
+    wrongGuesses = 0;
+    guessedLetters = [];
 
+
+    // Hangman to be added
+
+    updateWrongGuesses();
+    guessedWord();
+    generateWord();
+}
 
 
 // Display maximum allowed wrong guesses
