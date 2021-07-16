@@ -27,8 +27,6 @@ function handleGuess(letterChosen) {
         // Disable buttons after they have been chosen
     document.getElementById(letterChosen).setAttribute("disabled", true);
 
-    alert(hiddenWord);
-
       // If chosen letter excists - update letters
     if (hiddenWord.indexOf(letterChosen) >= 0) {
       guessedWord();
