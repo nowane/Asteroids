@@ -46,7 +46,10 @@ function handleGuess(letterChosen) {
 function checkWin() {
     // If letter input is equal to the hidden letters - you win
     if (currentWord === hiddenWord) {
-        document.getElementById("keyboard").innerHTML = "You Win!"
+        document.getElementById("keyboard").innerHTML = ("You Win!")
+
+        win = win + 1;
+        document.getElementById("win").innerHTML = win;
     }
 };
 
@@ -85,6 +88,7 @@ function rePlay() {
     updateWrongGuesses();  // Update wrong guesses on screen to starting value
     guessedWord();  // Display hidden word on screen to starting value
     generateWord();  // Generate new random word
+    generateButtons();
 }
 
 
@@ -93,3 +97,4 @@ document.getElementById("maximumWrong").innerHTML = maximumWrong;
 
 generateWord();
 guessedWord();
+generateButtons();

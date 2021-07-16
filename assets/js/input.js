@@ -1,7 +1,7 @@
 // Create keyboard buttons on screen
 function generateButtons() {
-    let buttonsTopRowHTML = "qwertyuiop".split("").map(letter =>
-      `
+  let buttonsTopRowHTML = "qwertyuiop".split("").map(letter =>
+    `
         <button
           class="btn-general"
           id='` + letter + `'
@@ -9,10 +9,10 @@ function generateButtons() {
         >
           ` + letter + `
         </button>
-      `).join(""); 
+      `).join("");
 
-      let buttonsMiddleRowHTML = "asdfghjkl".split("").map(letter =>
-        `
+  let buttonsMiddleRowHTML = "asdfghjkl".split("").map(letter =>
+    `
           <button
             class="btn-general"
             id='` + letter + `'
@@ -20,10 +20,10 @@ function generateButtons() {
           >
             ` + letter + `
           </button>
-        `).join(""); 
+        `).join("");
 
-        let buttonsBottomRowHTML = "zxcvbnm".split("").map(letter =>
-            `
+  let buttonsBottomRowHTML = "zxcvbnm".split("").map(letter =>
+    `
               <button
                 class="btn-general"
                 id='` + letter + `'
@@ -31,12 +31,11 @@ function generateButtons() {
               >
                 ` + letter + `
               </button>
-            `).join(""); 
+            `).join("");
 
-    document.getElementById("generateTopRow").innerHTML = buttonsTopRowHTML;
-    document.getElementById("generateMiddleRow").innerHTML = buttonsMiddleRowHTML;
-    document.getElementById("generateBottomRow").innerHTML = buttonsBottomRowHTML;
-  }
+  document.getElementById("generateTopRow").innerHTML = buttonsTopRowHTML;
+  document.getElementById("generateMiddleRow").innerHTML = buttonsMiddleRowHTML;
+  document.getElementById("generateBottomRow").innerHTML = buttonsBottomRowHTML;
+}
 
-  generateButtons();
-
+generateButtons();
