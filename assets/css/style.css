@@ -4,6 +4,7 @@ body {
     font-family: Roboto-Mono, Space-Mono;
     font-weight: 300;
     color: #ECA72C;
+    background-color: #31263E;;
 }
 
 /* ========== CONTAINERS */
@@ -20,14 +21,18 @@ html {
     background-color: #31263E;
 }
 
-.game-container {}
+#game-container {
+    background-color: #31263E;
+}
 
 #gamescore {
-
+    margin: 1rem 0rem;
 }
 
 #hidden-letters {
-    height: 10vh;
+    height: 100%;
+    align-items: center;
+    margin: 1rem 0rem;
 }
 
 #keyboard {
@@ -134,6 +139,7 @@ i:hover {
 
 /* ========== HIDDEN LETTERS */
 
+}
 
 
 /* ========== KEYBOARD */
