@@ -46,8 +46,8 @@ function handleGuess(letterChosen) {
 function checkWin() {
     // If letter input is equal to the hidden letters - you win
     if (currentWord === hiddenWord) {
-        // Messae shown when won
-        document.getElementById("keyboard").innerHTML = "You Win!";
+        // Message shown when won
+        document.getElementById("final-message").innerHTML = "You Win!";
 
         // Add +1 to win
         win = win + 1;
@@ -62,7 +62,7 @@ function checkLost() {
     if (wrongGuesses === maximumWrong) {
 
         // Message shown when lost
-        document.getElementById("keyboard").innerHTML = "You Lose!";
+        document.getElementById("final-message").innerHTML = "You Lose!";
         // Answer shown whwn lose
         document.getElementById("hiddenLetters").innerHTML = "The answer was " + hiddenWord;
 
@@ -94,7 +94,7 @@ function rePlay() {
     wrongGuesses = 0; // Reset wrong guesses
     guessedLetters = []; // Reset guessed letters
 
-
+    document.getElementById("final-message").innerHTML = "";
     // Hangman to be added
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value

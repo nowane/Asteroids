@@ -139,6 +139,11 @@ i:hover {
 
 /* ========== HIDDEN LETTERS */
 
+#used-letter {
+    color:#ECA72C;
+    font-weight: bold;
+    padding: 1rem;
+}
 
 
 /* ========== KEYBOARD */
