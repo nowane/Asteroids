@@ -94,7 +94,9 @@ function rePlay() {
     wrongGuesses = 0; // Reset wrong guesses
     guessedLetters = []; // Reset guessed letters
 
-    document.getElementById("final-message").innerHTML = "";
+    document.getElementById("final-message").innerHTML = "";  // Clear You Win/Lose text
+    document.getElementById("hiddenLetters").innerHTML = "";
+
     // Hangman to be added
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value
