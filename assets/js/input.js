@@ -37,3 +37,5 @@ function generateButtons() {
   document.getElementById("generateMiddleRow").innerHTML = buttonsMiddleRowHTML;
   document.getElementById("generateBottomRow").innerHTML = buttonsBottomRowHTML;
 }
+
+generateButtons();

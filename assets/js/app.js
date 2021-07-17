@@ -109,4 +109,3 @@ document.getElementById("maximumWrong").innerHTML = maximumWrong;
 
 generateWord();
 guessedWord();
-generateButtons();
