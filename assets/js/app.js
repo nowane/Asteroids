@@ -3,6 +3,8 @@ let words = [
     "monkey", "banana", "chimp", "tree", "zoo",
 ]
 
+const figureParts = document.querySelectorAll('.figure-part');
+
 //  Declared variables for HTML elements on the page to manipulate later
 let currentWord = null; // Current word - to be generated
 let hiddenWord = ""; // Current word - split into individual letters
@@ -14,7 +16,9 @@ let guessedLetters = []; // User input - guessed letters
 let win = 0;
 let lost = 0;
 
-// Random word generator out of words array
+// Display maximum allowed wrong guesses
+document.getElementById("maximumWrong").innerHTML = maximumWrong;
+
 function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 }
@@ -40,6 +44,34 @@ function handleGuess(letterChosen) {
 
         checkLost();
     }
+
+
+    figureParts.forEach((part, index) => {
+        const errors = guessedLetters.length;
+
+        if (index < errors) {
+            part.style.display = 'block';
+        } else {
+            part.style.display = 'none';
+        }
+    });
+
+}
+
+// Display hidden word on screen 
+function guessedWord() {
+    // map() creates new array in hiddenWord populated with the results of calling currentWord
+    currentWord = hiddenWord.split("").map(letter =>
+        // Check if letter excists in array - if positive, points to position
+        (guessedLetters.indexOf(letter) >= 0 ? letter : " _ ")).join("");
+
+    // Display the hidden letters of the generated word as undercores on screen
+    document.getElementById("hiddenLetters").innerHTML = currentWord;
+}
+
+// Update wrong guesses on screen
+function updateWrongGuesses() {
+    document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
 }
 
 // Check if game was won
@@ -73,28 +105,12 @@ function checkLost() {
     }
 };
 
-// Display hidden word on screen 
-function guessedWord() {
-    // map() creates new array in hiddenWord populated with the results of calling currentWord
-    currentWord = hiddenWord.split("").map(letter =>
-        // Check if letter excists in array - if positive, points to position
-        (guessedLetters.indexOf(letter) >= 0 ? letter : " _ ")).join("");
-
-    // Display the hidden letters of the generated word as undercores on screen
-    document.getElementById("hiddenLetters").innerHTML = currentWord;
-}
-
-// Update wrong guesses on screen
-function updateWrongGuesses() {
-    document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
-}
-
 // Play again - reset data
 function rePlay() {
     wrongGuesses = 0; // Reset wrong guesses
     guessedLetters = []; // Reset guessed letters
 
-    document.getElementById("final-message").innerHTML = "";  // Clear You Win/Lose text
+    document.getElementById("final-message").innerHTML = ""; // Clear You Win/Lose text
     document.getElementById("hiddenLetters").innerHTML = "";
 
     // Hangman to be added
@@ -105,9 +121,6 @@ function rePlay() {
     generateButtons();
 }
 
-
-// Display maximum allowed wrong guesses
-document.getElementById("maximumWrong").innerHTML = maximumWrong;
 
 generateWord();
 guessedWord();
