@@ -7,7 +7,8 @@ body {
     font-family: Roboto-Mono, Space-Mono;
     font-weight: 300;
     color: #ECA72C;
-    background-color: #31263E;;
+    background-color: #31263E;
+    ;
 }
 
 /* ========== CONTAINERS */
@@ -34,8 +35,7 @@ body {
     margin: 1rem 0rem;
 }
 
-#keyboard {
-}
+#keyboard {}
 
 #hangman {
     height: 40vh;
@@ -43,13 +43,9 @@ body {
 
 }
 
-#wrapper {
+#wrapper {}
 
-}
-
-.play-again-container {
-  
-}
+.play-again-container {}
 
 /* ========== GENERAL MARGINS/PADDINGS */
 
@@ -65,7 +61,7 @@ body {
 /* ========== BORDERS */
 
 .own-border {
-    border: 1px solid #ECA72C  !important;
+    border: 1px solid #ECA72C !important;
 }
 
 /* ========== BUTTONS */
@@ -84,7 +80,7 @@ button {
 
 .btn-general:hover {
     color: #EE5622;
-} 
+}
 
 div #keyboard button {
     width: 44px;
@@ -147,7 +143,7 @@ button a {
 /* ========== HIDDEN LETTERS */
 
 #used-letter {
-    color:#ECA72C;
+    color: #ECA72C;
     font-weight: bold;
     padding: 1rem;
 }
@@ -157,9 +153,7 @@ button a {
 
 #game-container div #keyboard #generateTopRow button,
 #game-container div #keyboard #generateMiddleRow button,
-#game-container div #keyboard #generateBottomRow button {
-
-}
+#game-container div #keyboard #generateBottomRow button {}
 
 
 /* ========== HANGMAN */
@@ -188,20 +182,23 @@ footer div div p {
 /* ========== CONTACT MODAL */
 
 .header-footer-color {
-    background-color: #221E22;;
+    background-color: #221E22;
+    ;
 }
 
 .modal-body {
     background-color: #31263E;
 }
 
-.modal input, .modal textarea {
+.modal input,
+.modal textarea {
     background-color: #44355B;
     color: white;
     font-weight: 700;
 }
 
-.modal form input:focus, .modal form textarea:focus {
+.modal form input:focus,
+.modal form textarea:focus {
     background-color: #EE5622;
     color: white;
 }
@@ -226,4 +223,11 @@ div div div div h5 {
 
 div div div div button {
     justify-content: center !important;
+}
+
+/* ========== 404 ERROR PAGE */
+
+.header-footer-404 {
+    background-color: #221E22;
+    height: 15vh;
 }
