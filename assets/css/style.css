@@ -237,16 +237,15 @@ div div div div button {
 
 .container-404{
     height: 60vh;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
-    max-width: 90vw;
 }
 
-.container-404 .content-404 .own-border button a{
+.container-404 .content-404 button a {
     text-decoration: none;
     display: block;
-    color:#ECA72C;
+    color:#ECA72C !important;
+    margin: 25px;
 };
 
 .content-404 {
