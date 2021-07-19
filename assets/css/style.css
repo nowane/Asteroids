@@ -116,6 +116,10 @@ i:hover {
     border-color: #221E22;
 }
 
+button a {
+    text-decoration: none;
+}
+
 /* ========== HEADER(S) */
 
 .page-header {
