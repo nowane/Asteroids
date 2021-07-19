@@ -1,4 +1,7 @@
 /* ========== FONTS */
+html {
+    background-color: #31263E;
+}
 
 body {
     font-family: Roboto-Mono, Space-Mono;
@@ -17,10 +20,6 @@ body {
     background-color: #44355B;
 }
 
-html {
-    background-color: #31263E;
-}
-
 #game-container {
     background-color: #31263E;
 }
@@ -36,12 +35,12 @@ html {
 }
 
 #keyboard {
-
 }
 
 #hangman {
     height: 40vh;
     width: 100%;
+
 }
 
 #wrapper {
@@ -53,6 +52,10 @@ html {
 }
 
 /* ========== GENERAL MARGINS/PADDINGS */
+
+.row {
+    margin: 0 !important;
+}
 
 .no-mp {
     margin: 0;
