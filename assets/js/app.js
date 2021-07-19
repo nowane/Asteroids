@@ -3,8 +3,6 @@ let words = [
     "monkey", "banana", "chimp", "tree", "zoo",
 ]
 
-const figureParts = document.querySelectorAll('.figure-part');
-
 //  Declared variables for HTML elements on the page to manipulate later
 let currentWord = null; // Current word - to be generated
 let hiddenWord = ""; // Current word - split into individual letters
@@ -15,6 +13,8 @@ let guessedLetters = []; // User input - guessed letters
 // Variables for keeping score
 let win = 0;
 let lost = 0;
+
+const figureParts = document.querySelectorAll('.figure-part');
 
 // Display maximum allowed wrong guesses
 document.getElementById("maximumWrong").innerHTML = maximumWrong;
@@ -41,21 +41,9 @@ function handleGuess(letterChosen) {
         wrongGuesses++;
         // Function to update the number of wrong guesses
         updateWrongGuesses();
-
         checkLost();
+        drawFigure();
     }
-
-
-    figureParts.forEach((part, index) => {
-        const errors = guessedLetters.length;
-
-        if (index < errors) {
-            part.style.display = 'block';
-        } else {
-            part.style.display = 'none';
-        }
-    });
-
 }
 
 // Display hidden word on screen 
@@ -73,6 +61,18 @@ function guessedWord() {
 function updateWrongGuesses() {
     document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
 }
+
+function drawFigure() {
+    //  Loops through figureParts and displays one piece per incorrect answer
+    figureParts.forEach((part, index) => {
+        const mistakes = guessedLetters.length;
+        if (index < mistakes) {
+            part.style.display = 'block';
+        } else {
+            part.style.display = 'none';
+        }
+    })
+};
 
 // Check if game was won
 function checkWin() {
@@ -111,7 +111,7 @@ function rePlay() {
     guessedLetters = []; // Reset guessed letters
 
     document.getElementById("final-message").innerHTML = ""; // Clear You Win/Lose text
-    document.getElementById("hiddenLetters").innerHTML = "";
+    document.getElementById("hiddenLetters").innerHTML = ""; // Clear old onderscores
 
     // Hangman to be added
 
@@ -119,8 +119,9 @@ function rePlay() {
     guessedWord(); // Display hidden word on screen to starting value
     generateWord(); // Generate new random word
     generateButtons();
+    drawFigure();
 }
 
-
+generateButtons();
 generateWord();
 guessedWord();
