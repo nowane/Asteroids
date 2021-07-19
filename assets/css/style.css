@@ -235,7 +235,7 @@ div div div div button {
     height: 20vh;
 }
 
-.container-404{
+.container-404 {
     height: 60vh;
     justify-content: center;
     text-align: center;
@@ -244,10 +244,18 @@ div div div div button {
 .container-404 .content-404 button a {
     text-decoration: none;
     display: block;
-    color:#ECA72C !important;
+    color: #ECA72C !important;
+    margin: 5px;
+}
+
+.comtainer-404 div h2 {
     margin: 25px;
-};
+}
+
+.container-404 .content-404 button {
+    margin-bottom: 20px;
+}
 
 .content-404 {
-padding: 20px;
+    padding: 20px;
 }
