@@ -20,6 +20,11 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
         rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+
     <!-- Link to css style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -43,15 +48,30 @@
                 <div id="gamescore-container"
                     class="col-sm-12 col-md-8 d-inline-block container-light-purple own-border">
                     <div class="gamescore">
-                        <h2 class="text-center">Gamescore</h2>
-                        <div class="text-center">Game Score: Win: <span id="win">0</span> - Lose: <span
-                                id="lost">0</span></div>
-                        <div class="text-end">Wrong Guesses:<span id="wrongGuesses">0</span> of <span
-                                id="maximumWrong"></span></div>
+                        <div class="row justify-content-center">
+                            <div>
+                                <h2 class="text-center">Gamescore</h2>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        Win: <span id="win">0</span> - Lose: <span id="lost">0</span>
+                                    </div>
+
+                                    <div class="col-12 col-md-6 text-start">Wrong Guesses:<span
+                                            id="wrongGuesses">0</span> of <span id="maximumWrong"></span></div>
+                                </div>
+                                <div class="col-12 col-md-6 text-end">
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <!-- Hidden letter section -->
         <div id="hidden-letters" class="container-fluid container-deep-purple">
@@ -59,6 +79,7 @@
                 <div class="col-sm-12 col-md-8 game-info container-light-purple own-border hiddenLetters">
                     <h3 id="hiddenLetters">HIDDEN WORD</h3>
                     <div id="final-message-container">
+                        <p id="catagoryName"></p>
                         <p id="final-message"></p>
                     </div>
                 </div>
@@ -83,24 +104,24 @@
                     <svg class="figure-container" x="0" y="0" width="100%" height="100%" viewbox="0 0 400 300">
 
                         <!-- Rod -->
-                        <line x1="40" y1="280" x2="360" y2="280" class="figure-part" />
-                        <line x1="120" y1="280" x2="120" y2="20" class="figure-part" />
-                        <line x1="120" y1="20" x2="260" y2="20" class="figure-part" />
-                        <line x1="260" y1="20" x2="260" y2="50" class="figure-part" />
+                        <line x1="40" y1="280" x2="360" y2="280" class="figure-part d-none" />
+                        <line x1="120" y1="280" x2="120" y2="20" class="figure-part d-none" />
+                        <line x1="120" y1="20" x2="260" y2="20" class="figure-part d-none" />
+                        <line x1="260" y1="20" x2="260" y2="50" class="figure-part d-none" />
 
                         <!-- Figure head -->
-                        <circle cx="260" cy="75" r="25" class="figure-part" />
+                        <circle cx="260" cy="75" r="25" class="figure-part d-none" />
 
                         <!-- Figure body -->
-                        <line x1="260" y1="100" x2="260" y2="180" class="figure-part" />
+                        <line x1="260" y1="100" x2="260" y2="180" class="figure-part d-none" />
 
                         <!-- Figure arms -->
-                        <line x1="260" y1="120" x2="210" y2="100" class="figure-part" />
-                        <line x1="260" y1="120" x2="310" y2="100" class="figure-part" />
+                        <line x1="260" y1="120" x2="210" y2="100" class="figure-part d-none" />
+                        <line x1="260" y1="120" x2="310" y2="100" class="figure-part d-none" />
 
                         <!-- Figure legs -->
-                        <line x1="260" y1="180" x2="200" y2="220" class="figure-part" />
-                        <line x1="260" y1="180" x2="320" y2="220" class="figure-part" />
+                        <line x1="260" y1="180" x2="200" y2="220" class="figure-part d-none" />
+                        <line x1="260" y1="180" x2="320" y2="220" class="figure-part d-none" />
 
                     </svg>
                 </div>
