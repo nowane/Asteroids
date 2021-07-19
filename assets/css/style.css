@@ -232,7 +232,7 @@ div div div div button {
 
 .header-footer-404 {
     background-color: #221E22;
-    height: 15vh;
+    height: 20vh;
 }
 
 .container-404{
@@ -241,6 +241,5 @@ div div div div button {
 
 .container-404 .row .own-border button {
     text-decoration: none;
-    padding: 3rem;
-    font-size: 3rem;
+    display: block;
 };
