@@ -206,9 +206,17 @@ footer div div p {
 }
 
 .modal-header {
-    border-bottom: 1px solid #ECA72C;;
+    border-bottom: 1px solid #ECA72C;
 }
 
 .modal-footer {
     border-top: 1px solid #ECA72C;
+}
+
+div div div div h5 {
+    margin: auto;
+}
+
+div div div div button {
+    justify-content: center !important;
 }
