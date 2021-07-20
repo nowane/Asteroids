@@ -21,6 +21,9 @@
     - When the game is won +1 is added to "win". However after the game ends the user can still click on the letter-input. When this happens there is still added +1 to mistakes and when the maximum amount of guesses is reached there will be added +1 to "lose" as well.
         > This was solved by removing the keyboard after the game ends. For symmetry this also happens when a game is lost as well, even though a user obviously can't still "win" the game after a loss.
 
+    - Game would finish before last part of the hangman figure was drawn.
+        > Max allowed guesses changed from 9 to 10.
+
     - Hangman figure does not work correctly. It will display parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
 
     - Hangman already displays as a whole on game start, and disappears after first input.
