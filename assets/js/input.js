@@ -3,7 +3,7 @@ function generateButtons() {
   var buttonsTopRowHTML = "qwertyuiop".split("").map(letter =>
     `
         <button
-          class="btn-general"
+          class="btn-keyboard"
           id='` + letter + `'
           onClick="handleGuess('` + letter + `')"
         >
@@ -14,7 +14,7 @@ function generateButtons() {
   var buttonsMiddleRowHTML = "asdfghjkl".split("").map(letter =>
     `
           <button
-            class="btn-general"
+            class="btn-keyboard"
             id='` + letter + `'
             onClick="handleGuess('` + letter + `')"
           >
@@ -25,7 +25,7 @@ function generateButtons() {
   var buttonsBottomRowHTML = "zxcvbnm".split("").map(letter =>
     `
               <button
-                class="btn-general"
+                class="btn-keyboard"
                 id='` + letter + `'
                 onClick="handleGuess('` + letter + `')"
               >

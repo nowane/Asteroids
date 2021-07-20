@@ -75,7 +75,22 @@ body {
     transition: 0.25s;
 }
 
-.btn-instructions, .btn-general:hover {
+.btn-keyboard {
+    font-weight: 700;
+    background: none;
+    border: 1px solid;
+    margin: 1px !important;
+    color: #ECA72C;
+
+}
+
+.btn-keyboard:hover {
+    border-color: #EE5622 !important;
+    border: 3px solid;
+}
+
+.btn-instructions,
+.btn-general:hover {
     color: #EE5622;
 }
 
