@@ -27,7 +27,9 @@
     - Hangman already displays as a whole on game start, and disappears after first input.
         > Apparently forgot to add the drawFigure() function at the bottom of app.js. This solved the issue.
 
-    - Hangman figure does not work correctly. It will display parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
+    - When loading the page the hangman figure briefly shows up when loaded, and disappears after a split second.
+
+    - Hangman figure displays parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
 
 - Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
 
