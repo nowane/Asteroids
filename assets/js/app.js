@@ -1,11 +1,11 @@
-// Test to see if letters show up
+// Test to see if letters show up  --  TO BE REPLACED
 let words = [
     "monkey", "banana", "chimp", "tree", "zoo",
 ]
 
 //  Declared variables for HTML elements on the page to manipulate later
-let currentWord = null; // Current word - to be generated
-let hiddenWord = ""; // Current word - split into individual letters
+let hiddenWord = ""; // Current word - to be generated  
+let currentWord = null; // Generated word - being split into individual letters
 let wrongGuesses = 0; // Wrong guesses
 let maximumWrong = 10; // Max wrong guesses
 let guessedLetters = []; // User input - guessed letters
@@ -19,9 +19,11 @@ const figureParts = document.querySelectorAll('.figure-part');
 // Display maximum allowed wrong guesses
 document.getElementById("maximumWrong").innerHTML = maximumWrong;
 
+document.getElementById("guess-the-name").innerHTML = "Can you guess the word?";
+
 function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
-}
+};
 
 // Handle chosen letter input 
 function handleGuess(letterChosen) {
@@ -44,7 +46,7 @@ function handleGuess(letterChosen) {
         checkLost();
         drawFigure();
     }
-}
+};
 
 // Display hidden word on screen 
 function guessedWord() {
@@ -55,12 +57,12 @@ function guessedWord() {
 
     // Display the hidden letters of the generated word as undercores on screen
     document.getElementById("hiddenLetters").innerHTML = currentWord;
-}
+};
 
 // Update wrong guesses on screen
 function updateWrongGuesses() {
     document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
-}
+};
 
 function drawFigure() {
     //  Loops through figureParts and displays one piece per incorrect answer
@@ -86,6 +88,8 @@ function checkWin() {
         // Update html
         document.getElementById("win").innerHTML = win;
 
+        document.getElementById("guess-the-name").innerHTML = "";
+
         // Remove keyboard after win
         document.getElementById("generateTopRow").innerHTML = "";
         document.getElementById("generateMiddleRow").innerHTML = "";
@@ -108,6 +112,8 @@ function checkLost() {
         // Update html
         document.getElementById("lost").innerHTML = lost;
 
+        document.getElementById("guess-the-name").innerHTML = "";
+
         // Remove keyboard after loss
         document.getElementById("generateTopRow").innerHTML = "";
         document.getElementById("generateMiddleRow").innerHTML = "";
@@ -121,8 +127,7 @@ function rePlay() {
     guessedLetters = []; // Reset guessed letters
 
     document.getElementById("final-message").innerHTML = ""; // Clear You Win/Lose text
-
-    // Hangman to be added
+    document.getElementById("guess-the-name").innerHTML = "Can you guess the word?";
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value
     generateWord(); // Generate new random word
@@ -131,7 +136,7 @@ function rePlay() {
     guessedWord(); // Display hidden word on screen to starting value
     drawFigure();
     generateButtons();
-}
+};
 
 
 drawFigure();
