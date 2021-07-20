@@ -66,19 +66,16 @@ body {
 
 /* ========== BUTTONS */
 
-button {
+.btn-general {
     background: none;
     border: 2px solid;
     margin: 0.3rem;
     padding: 0.3rem;
-}
-
-.btn-general {
     color: #ECA72C;
     transition: 0.25s;
 }
 
-.btn-general:hover {
+.btn-instructions, .btn-general:hover {
     color: #EE5622;
 }
 
@@ -98,6 +95,8 @@ div div div div .play-again {
     text-align: center;
 }
 
+
+
 i {
     font-size: 2rem;
     margin: 0.3rem;
@@ -105,8 +104,8 @@ i {
     transition: 0.25s;
 }
 
-i:hover {
-    color: #EE5622;
+a:hover {
+    color: #EE5622 !important;
 }
 
 :disabled {
@@ -115,9 +114,15 @@ i:hover {
     border-color: #221E22;
 }
 
-button a {
+.btn-instructions {
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    background: none;
+    border: 2px solid;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    color: #ECA72C !important;
+    transition: 0.25s;
 }
 
 /* ========== HEADER(S) */
