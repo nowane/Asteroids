@@ -35,17 +35,11 @@ body {
     margin: 1rem 0rem;
 }
 
-#keyboard {}
-
 #hangman {
     height: 40vh;
     width: 100%;
 
 }
-
-#wrapper {}
-
-.play-again-container {}
 
 /* ========== GENERAL MARGINS/PADDINGS */
 
@@ -166,9 +160,7 @@ i:hover, a:hover {
 
 /* ========== KEYBOARD */
 
-#game-container div #keyboard #generateTopRow button,
-#game-container div #keyboard #generateMiddleRow button,
-#game-container div #keyboard #generateBottomRow button {}
+
 
 
 /* ========== HANGMAN */
