@@ -22,6 +22,8 @@
 
     - Hangman already displays as a whole on game start, and disappears after first input.
 
+    - When the game is won +1 is added to "win". However after the game ends the user can still click on the letter-input. When this happens there is still added +1 to mistakes and when the maximum amount of guesses is reached there will be added +1 to "lose" as well.
+
 - Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
 
 [Back to Repository](https://github.com/nowane/Hangman)
