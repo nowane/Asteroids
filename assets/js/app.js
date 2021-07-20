@@ -7,7 +7,7 @@ let words = [
 let currentWord = null; // Current word - to be generated
 let hiddenWord = ""; // Current word - split into individual letters
 let wrongGuesses = 0; // Wrong guesses
-let maximumWrong = 9; // Max wrong guesses
+let maximumWrong = 10; // Max wrong guesses
 let guessedLetters = []; // User input - guessed letters
 
 // Variables for keeping score
