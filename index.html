@@ -135,12 +135,9 @@
             </div>
         </div>
     </div>
-    </div>
-
 
     <footer id="footer" class="fixed-bottom">
         <div class="container-fluid row align-items-center text-center">
-
             <!-- Button trigger contact modal -->
             <div class="col-sm-12 col-md-4 order-1 order-md-1">
                 <button type="button" class="btn-general" data-bs-toggle="modal" data-bs-target="#contactModal">
@@ -153,8 +150,6 @@
             <div class="col-sm-12 col-md-4 order-2 order-md-3"><a href="https://github.com/nowane" target="_blank"
                     rel="noopener noreferrer" aria-label="open github in new tab"><i class="fab fa-github"></i></a>
             </div>
-
-
         </div>
     </footer>
 
@@ -174,8 +169,8 @@
                         <label for="fullname">Full Name:</label>
                         <input type="text" name="name" class="form-control own-border" id="fullname"
                             placeholder="Full Name" required />
-                        <label for="email">E-mail Address:</label>
-                        <input type="text" name="emailaddress" class="form-control own-border" id="emailaddress"
+                        <label for="emailaddress">E-mail Address:</label>
+                        <input type="email" name="emailaddress" class="form-control own-border" id="emailaddress"
                             placeholder="Email Address" required />
                         <label for="message">Message:</label>
                         <textarea rows="3" name="message" class="form-control own-border" id="message"
@@ -199,7 +194,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content header-footer-color own-border">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="instructions">Instructions</h5>
+                    <h5 class="modal-title" id="instructions-header">Instructions</h5>
                 </div>
                 <div class="modal-body">
                     <ul>
@@ -216,7 +211,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggle2"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content header-footer-color own-border">
@@ -238,14 +233,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
     <script src="assets/js/words.js"></script>
     <script src="assets/js/input.js"></script>
     <script src="assets/js/app.js"></script>
 
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
         })();
