@@ -91,9 +91,7 @@ function checkWin() {
         document.getElementById("guess-the-name").innerHTML = "";
 
         // Remove keyboard after win
-        document.getElementById("generateTopRow").innerHTML = "";
-        document.getElementById("generateMiddleRow").innerHTML = "";
-        document.getElementById("generateBottomRow").innerHTML = "";
+        document.getElementById("generateKeyboard").innerHTML = "";
     }
 };
 
@@ -115,9 +113,7 @@ function checkLost() {
         document.getElementById("guess-the-name").innerHTML = "";
 
         // Remove keyboard after loss
-        document.getElementById("generateTopRow").innerHTML = "";
-        document.getElementById("generateMiddleRow").innerHTML = "";
-        document.getElementById("generateBottomRow").innerHTML = "";
+        document.getElementById("generateKeyboard").innerHTML = "";
     }
 };
 
@@ -138,8 +134,4 @@ function playGame() {
     generateButtons();
 };
 
-
-
-generateButtons(disabled);
 generateWord();
-keyboard();
