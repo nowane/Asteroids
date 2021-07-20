@@ -114,7 +114,6 @@ function rePlay() {
 
     document.getElementById("final-message").innerHTML = ""; // Clear You Win/Lose text
 
-
     // Hangman to be added
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value
@@ -122,6 +121,7 @@ function rePlay() {
     generateButtons();
     document.getElementById("hiddenLetters").innerHTML = ""; // Clear old onderscores
     guessedWord(); // Display hidden word on screen to starting value
+    figureParts();
 }
 
 
