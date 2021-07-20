@@ -134,7 +134,7 @@ function rePlay() {
 }
 
 
-
+drawFigure();
 generateButtons();
 generateWord();
 guessedWord();
