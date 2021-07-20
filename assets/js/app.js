@@ -121,8 +121,8 @@ function checkLost() {
     }
 };
 
-// Play again - reset data
-function rePlay() {
+// Play or reset game
+function playGame() {
     wrongGuesses = 0; // Reset wrong guesses
     guessedLetters = []; // Reset guessed letters
 
@@ -139,7 +139,7 @@ function rePlay() {
 };
 
 
-drawFigure();
-generateButtons();
+
+generateButtons(disabled);
 generateWord();
-guessedWord();
+keyboard();
