@@ -15,7 +15,8 @@
     - When trying to clear the "You Win/Lose"-message the keyboard didn't reload when starting a new game. 
         > This was solved creating a different container for the message.
 
-    - With the starting of a new word, underscores matching the new word don't load and instead remain the same as from the former word.
+    - With the starting of a new word, underscores matching the new word don't load. Instead they remain the same as from the former word. Their display will update after a first guess from the user.
+        > The order in which functions were resetted when restarting the game was wrong. This was corrected.
 
     - Hangman figure does not work correctly. It will eventually display parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
 
