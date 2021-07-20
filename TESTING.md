@@ -31,6 +31,7 @@
         > Disabling the keyboard before the play-function ran solved this. 
 
     - When loading the page the hangman figure briefly shows up when loaded, and disappears after a split second.
+        > As an aesthetic choice decided to have the full hangman image displayed before the game starts. Otherwise the gamefield looks a bit too clean when the used first visits the page.
 
     - Hangman figure displays parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
 
