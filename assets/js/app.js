@@ -23,8 +23,6 @@ function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 }
 
-
-
 // Handle chosen letter input 
 function handleGuess(letterChosen) {
     // If chosen letter doesn't excist - push letter into array
@@ -87,6 +85,11 @@ function checkWin() {
         win = win + 1;
         // Update html
         document.getElementById("win").innerHTML = win;
+
+        // Remove keyboard after win
+        document.getElementById("generateTopRow").innerHTML = "";
+        document.getElementById("generateMiddleRow").innerHTML = "";
+        document.getElementById("generateBottomRow").innerHTML = "";
     }
 };
 
@@ -97,13 +100,18 @@ function checkLost() {
 
         // Message shown when lost
         document.getElementById("final-message").innerHTML = "You Lose!";
-        // Answer shown whwn lose
+        // Answer shown when lose
         document.getElementById("hiddenLetters").innerHTML = "The answer was " + hiddenWord;
 
         // Add +1 to lost
         lost = lost + 1;
         // Update html
         document.getElementById("lost").innerHTML = lost;
+
+        // Remove keyboard after loss
+        document.getElementById("generateTopRow").innerHTML = "";
+        document.getElementById("generateMiddleRow").innerHTML = "";
+        document.getElementById("generateBottomRow").innerHTML = "";
     }
 };
 
@@ -118,10 +126,11 @@ function rePlay() {
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value
     generateWord(); // Generate new random word
-    generateButtons();
+
     document.getElementById("hiddenLetters").innerHTML = ""; // Clear old onderscores
     guessedWord(); // Display hidden word on screen to starting value
-    figureParts();
+    drawFigure();
+    generateButtons();
 }
 
 
