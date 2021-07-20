@@ -23,6 +23,8 @@ function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 }
 
+
+
 // Handle chosen letter input 
 function handleGuess(letterChosen) {
     // If chosen letter doesn't excist - push letter into array
@@ -111,16 +113,18 @@ function rePlay() {
     guessedLetters = []; // Reset guessed letters
 
     document.getElementById("final-message").innerHTML = ""; // Clear You Win/Lose text
-    document.getElementById("hiddenLetters").innerHTML = ""; // Clear old onderscores
+
 
     // Hangman to be added
 
     updateWrongGuesses(); // Update wrong guesses on screen to starting value
-    guessedWord(); // Display hidden word on screen to starting value
     generateWord(); // Generate new random word
     generateButtons();
-    drawFigure();
+    document.getElementById("hiddenLetters").innerHTML = ""; // Clear old onderscores
+    guessedWord(); // Display hidden word on screen to starting value
 }
+
+
 
 generateButtons();
 generateWord();
