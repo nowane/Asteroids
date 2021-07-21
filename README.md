@@ -87,9 +87,9 @@ The colours used for this project are based on a schematic provided by [Coolors]
 - Marigold - Used as a nice bright contrast on the darker background.
 - Flame (orange) - A warm colour used to put an accent on certain elements of the page.
 
-![Color Schema](assets/images/colour-scheme.png)
-
 [Back to Table of Content](#table-of-content)
+
+![Color Schema](assets/images/colour-scheme.png)
 
   #### Typography
 
@@ -118,6 +118,9 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to create and manipulate the dynamic elements of the website.
 
   ### Integrations
+- [Bootstrap 5](https://getbootstrap.com/) - Used as a framework
+- [Font Awesome](https://fontawesome.com/) - Used icons for the GitHub social link icon.
+- [Google Fonts](https://fonts.google.com/) - For the fonts used.
 
   ### Version Control- Workspace and Repository Storage
 
@@ -128,9 +131,13 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
   ### Other Technologies
 
 - [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the UX stage of the project.
+- [Email JS](https://www.emailjs.com/) - Used to allow the user to send an e-mail to the owner of the game.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout building the project testing responsiveness and debugging.
+- [Favicon.io](https://favicon.io/favicon-generator/) - Used to make the favicon.
 - [Mockup](http://ami.responsivedesign.is/) - Used to create an image of responsiveness on various devices.
+- [Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG?retiredLocale=nl) for the animated hangman
 - [Slack](https://slack.com/intl/en-nl/) - Used to look up answers to all kind of questions.
+
 
 [Back to Table of Content](#table-of-content)
 
