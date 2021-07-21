@@ -46,7 +46,7 @@ function handleGuess(letterChosen) {
         checkLost();
         drawFigure();
     }
-};
+}
 
 // Display hidden word on screen 
 function guessedWord() {
@@ -57,7 +57,7 @@ function guessedWord() {
 
     // Display the hidden letters of the generated word as undercores on screen
     document.getElementById("hiddenLetters").innerHTML = currentWord;
-};
+}
 
 // Update wrong guesses on screen
 function updateWrongGuesses() {
@@ -67,14 +67,14 @@ function updateWrongGuesses() {
 function drawFigure() {
     //  Loops through figureParts and displays one piece per incorrect answer
     figureParts.forEach((part, index) => {
-        const mistakes = guessedLetters.length;
-        if (index < mistakes) {
+        const mistakes = wrongGuesses.length;
+        if (index < wrongGuesses) {
             part.style.display = 'block';
         } else {
             part.style.display = 'none';
         }
     })
-};
+}
 
 // Check if game was won
 function checkWin() {
@@ -93,7 +93,7 @@ function checkWin() {
         // Remove keyboard after win
         document.getElementById("generateKeyboard").innerHTML = "";
     }
-};
+}
 
 // Check if game was lost
 function checkLost() {
@@ -115,7 +115,7 @@ function checkLost() {
         // Remove keyboard after loss
         document.getElementById("generateKeyboard").innerHTML = "";
     }
-};
+}
 
 // Play or reset game
 function playGame() {
@@ -132,6 +132,6 @@ function playGame() {
     guessedWord(); // Display hidden word on screen to starting value
     drawFigure();
     generateButtons();
-};
+}
 
 generateWord();
