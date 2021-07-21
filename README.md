@@ -80,13 +80,20 @@ Sounds | 2 | 2
 
   #### Colour Scheme
 
-The following are the colours used for this project, based on a schematic provided by [Coolors](https://coolors.co/) /
+The colours used for this project are based on a schematic provided by [Coolors](https://coolors.co/) 
+- English violet (light purple) - For the use of the main game backgrounds.
+- Dark purple - For the use of a darker background to make the inner background stand out, but similar enough to match the inner background to give it an easy look on the eyes.
+- Raisin black - To make the header and footer stand out, and dark enough to compliment the lighter colours that will be used.
+- Marigold - Used as a nice bright contrast on the darker background.
+- Flame (orange) - A warm colour used to put an accent on certain elements of the page.
 
 ![Color Schema](assets/images/colour-scheme.png)
 
 [Back to Table of Content](#table-of-content)
 
   #### Typography
+
+  Fonts used for this project is Roboto-Mono with a backup of Space-Mono. Both were chosen because of the clean look is has and the even spacing of letters, which is a great feature for a game of Hangman.
 
 [Back to Table of Content](#table-of-content)
 
