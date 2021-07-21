@@ -34,6 +34,7 @@
         > As an aesthetic choice decided to have the full hangman image displayed before the game starts. Otherwise the gamefield looks a bit too clean when the used first visits the page.
 
     - Hangman figure displays parts of the hangman even after correct input. For example: When the user guesses a letter correctly, there isn't a new part of the hangman displayed, however when the user after this guesses incorrectly, the hangman figure displays two new parts instead of one.
+        > Eventually I found out that I simply used the variable which concerned all letter input, not just the wrong one. I expected this from the start, still apparently I somehow missed it when I checked it.
 
 - Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
 
