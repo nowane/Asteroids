@@ -21,30 +21,36 @@ body {
     background-color: #44355B;
 }
 
-#game-container {
-    background-color: #31263E;
-}
-
 #gamescore {
-    margin: 1rem 0rem;
+    margin-top: 4vh;
 }
 
 #hidden-letters {
     height: 100%;
     align-items: center;
-    margin: 1rem 0rem;
+    margin-top: 4vh;
 }
+
+#keyboard-hangman {
+    margin-top: 4vh;
+}
+
+#keyboard {}
 
 #hangman {
     height: 40vh;
     width: 100%;
+}
 
+#play-button {
+    margin-top: 2vh;
 }
 
 /* ========== GENERAL MARGINS/PADDINGS */
 
 .row {
-    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .no-mp {
@@ -107,7 +113,8 @@ i {
     transition: 0.25s;
 }
 
-i:hover, a:hover {
+i:hover,
+a:hover {
     color: #EE5622 !important;
 }
 
@@ -116,6 +123,8 @@ i:hover, a:hover {
     color: #EE5622;
     border-color: #221E22;
 }
+
+
 
 .btn-instructions {
     text-decoration: none;

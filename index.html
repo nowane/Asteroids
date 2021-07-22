@@ -40,32 +40,29 @@
         </div>
     </header>
 
-    <!-- Game container -->
-    <div id="game-container" class="container-fluid g-0">
-        <!-- Gamescore section-->
-        <div id="gamescore" class="container-fluid container-deep-purple">
-            <div class="row justify-content-center">
-                <div id="gamescore-container"
-                    class="col-sm-12 col-md-8 d-inline-block container-light-purple own-border">
-                    <div class="gamescore row align-items-center">
-                        <h2 class="text-center">Gamescore</h2>
-                        <div class="col-12 col-md-4 order-md-2 text-center">
-                            Win: <span id="win">0</span> - Lose: <span id="lost">0</span>
-                        </div>
-                        <div class="col-12 col-md-4 order-sm-1 order-md-1 text-center">Wrong Guesses:<span id="wrongGuesses">0</span>
-                            of <span id="maximumWrong"></span>
-                        </div>
-                        <div class="col-12 col-md-4 order-sm-2 order-md-3 text-center">
-                                <a class="btn-instructions" data-bs-toggle="modal" href="#instructions"
-                                    role="button">Instructions</a>
-                        </div>
+
+
+    <!-- Gamescore section-->
+    <div id="gamescore" class="container-fluid container-deep-purple g-0">
+        <div class="row justify-content-center">
+            <div id="gamescore-container" class="col-sm-12 col-md-8 d-inline-block container-light-purple own-border">
+                <div class="gamescore row align-items-center">
+                    <h2 class="text-center">Gamescore</h2>
+                    <div class="col-12 col-md-4 order-md-2 text-center">
+                        Win: <span id="win">0</span> - Lose: <span id="lost">0</span>
+                    </div>
+                    <div class="col-12 col-md-4 order-sm-1 order-md-1 text-center">Wrong Guesses:<span
+                            id="wrongGuesses">0</span>
+                        of <span id="maximumWrong"></span>
+                    </div>
+                    <div class="col-12 col-md-4 order-sm-2 order-md-3 text-center">
+                        <a class="btn-instructions" data-bs-toggle="modal" href="#instructions"
+                            role="button">Instructions</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     <!-- Hidden letter section -->
     <div id="hidden-letters" class="container-fluid container-deep-purple no-mp">
@@ -120,7 +117,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div id="play-button" class="container-fluid">
         <div class="row justify-content-center container-deep-purple">
             <div class="col-2 text-center">
                 <button class="btn-general play-again mt-2" onClick="playGame();">Play
@@ -128,6 +125,7 @@
                 </button>
             </div>
         </div>
+    </div>
     </div>
 
     <footer id="footer" class="fixed-bottom">
@@ -223,22 +221,22 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-    <script src="assets/js/words.js"></script>
-    <script src="assets/js/input.js"></script>
-    <script src="assets/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-    <script>
-        (function () {
-            emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
-        })();
-    </script>
-    <script src="assets/js/email.js"></script>
+        <script src="assets/js/words.js"></script>
+        <script src="assets/js/input.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <script>
+            (function () {
+                emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
+            })();
+        </script>
+        <script src="assets/js/email.js"></script>
 
 </body>
 
