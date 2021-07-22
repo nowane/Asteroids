@@ -8,7 +8,7 @@ body {
     font-weight: 300;
     color: #ECA72C;
     background-color: #31263E;
-    ;
+    margin-bottom: 120px;
 }
 
 /* ========== CONTAINERS */
@@ -199,7 +199,6 @@ footer div div p {
 
 .header-footer-color {
     background-color: #221E22;
-    ;
 }
 
 .modal-body {
