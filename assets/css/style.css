@@ -49,13 +49,14 @@ body {
     margin-top: 4vh;
 }
 
-#keyboard-hangman {
+#keyboard {
     margin-top: 4vh;
 }
 
 #hangman {
     height: 40vh;
     width: 100%;
+    margin-top: 4vh;
 }
 
 #play-button {
@@ -96,11 +97,13 @@ body {
     height: 40px;
     font-weight: 700;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
     background: none;
     border: 1px solid;
-    margin: 1px !important;
+    margin: 6px !important;
+    padding: 2px !important;
     color: #ECA72C;
+    align-self: center;
 }
 
 .btn-keyboard:hover {
@@ -119,8 +122,6 @@ div div div div .play-again {
     align-self: center;
     text-align: center;
 }
-
-
 
 i {
     font-size: 2rem;
@@ -316,22 +317,36 @@ div div div div button {
     #keyboard {
         max-width: 93%;
         margin-top: 2vh;
+        height: 25vh;
+        min-height: 180px;
     }
 
     #hangman {
         max-width: 93%;
         margin-top: 2vh;
+        height: 25vh;
     }
 
     #play-button {
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
-}
 
-@media screen and (min-width: 769px) {
-
-    #footer {
-        position: fixed;
+    object {
+        height: 25vh;
     }
+
+    .btn-keyboard {
+        width: 32px !important;
+        height: 32px !important;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1em;
+        margin: 2px !important;
+        padding: 3px !important;
+    }
+
 }
+
+
+
