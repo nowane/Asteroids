@@ -13,6 +13,7 @@ body {
     color: #ECA72C;
     background-color: #31263E;
 }
+
 #page-container {
     padding: 0;
     margin: 0;
@@ -321,11 +322,16 @@ div div div div button {
         max-width: 93%;
         margin-top: 2vh;
     }
+
     #play-button {
-        margin-top: 1vh; 
+        margin-top: 1vh;
         margin-bottom: 1vh;
     }
-
-
 }
 
+@media screen and (min-width: 769px) {
+
+    #footer {
+        position: fixed;
+    }
+}
