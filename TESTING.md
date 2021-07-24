@@ -37,7 +37,7 @@
         > Eventually I found out that I simply used the variable which concerned all letter input, not just the wrong one. I expected this from the start, still apparently I somehow missed it when I checked it.
 
     - At a size of around 822 x 530 pixels (depending on whether the accent lies on making the screen smaller or shorter from that point onwards) the hangman-figure starts to get shorter compared to it's left-side section of the keyboard due to pixel-ratio if the svg-image.
-     -  > 
+     -  > The problem was that the div which contained the keyboard was unable to scale in the same way as the hangman-div it had next to is. Responsiveness in a UX-friendly way became difficult because of this, so I decided to place the keyboard at the bottom. This is the same on on small sizes, except for the fact that on larger screens the keyboard it doesn't gets wider than 800px. This means it will be smaller than the sections above it, which in my opinion gives it a cleaner look.
 
 - Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
 
