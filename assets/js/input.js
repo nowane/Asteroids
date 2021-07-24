@@ -3,7 +3,7 @@ function generateButtons() {
   var buttonsHTML = "abcdefghijklmnopqrstuvwxyz".split("").map(letter =>
     `
         <button
-          class="btn-keyboard"
+          class="btn-keyboard disabled"
           id='` + letter + `'
           onClick="handleGuess('` + letter + `')"
         >
@@ -13,3 +13,4 @@ function generateButtons() {
 
   document.getElementById("generateKeyboard").innerHTML = buttonsHTML;
 };
+

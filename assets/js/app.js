@@ -1,26 +1,39 @@
-// Test to see if letters show up  --  TO BE REPLACED
-let words = [
-    "monkey", "banana", "chimp", "tree", "zoo",
-]
+let words =     
+[
+'lion', 'sheep', 'wolf', 'tiger', 'dog', 'ant', 'cat', 'fox', 'pig', 'cow', 'bird', 'chicken', 'monkey', 'rabbit', 'camel', 'cheetah', 'coyote', 'eagle',
+'elephant', 'giraffe', 'hamster', 'grasshopper', 'armadillo', 'caribou', 'cockroach', 'hedgehog', 'hippopotamus', 'hummingbird', 'nightingale',
+'porcupine', 'rhinoceros',     
+'chips', 'carrot', 'cheese', 'pizza', 'milk', 'honey', 'coffee', 'butter', 'cake', 'bread', 'oister', 'lettuce', 'sausage', 'dumpling', 'broccoli',
+'mushroom', 'sandwich', 'watermelon', 'milkshake', 'asparagus', 'zucchini', 'hollandaise', 'fettuccine', 'macaron', 'edamame', 'charcuterie',
+'bouillabaisse', 'tzatziki', 'bourguignon',
+'togo', 'fiji', 'spain', 'peru', 'oman', 'niger', 'nepal', 'mali', 'malta', 'iran', 'algeria', 'albania', 'belgium', 'bolivia', 'Mmuritius',
+'ecuador', 'finland', 'guinea', 'ireland', 'kuwait', 'uzbekistan', 'turkmenistan', 'bangladesh', 'seychelles', 'philippines', 'mozambique', 'liechtenstein',
+'kyrgyzstan', 'eswatini', 'djibouti',
+'hydrogen', 'sodium', 'calcium', 'carbon', 'sulfur', 'iodine', 'lead', 'aluminium', 'titanium', 'magnesium', 'strontium', 'potassium',
+'barium', 'radium', 'chromium', 'cobalt', 'thorium', 'zirconium', 'rutherfordium', 'oganesson', 'praseodymium', 'mendelevium', 'livermorium', 'protactinium',
+'ytterbium', 'technetium', 'gadolinium'
+];
 
 //  Declared variables for HTML elements on the page to manipulate later
-let hiddenWord = ""; // Current word - to be generated  
-let currentWord = null; // Generated word - being split into individual letters
+let hiddenWord = ""; // Current word - to for generating the word
+let currentWord = null; // The generated word - to be split into individual letterscas hidden letters
 let wrongGuesses = 0; // Wrong guesses
 let maximumWrong = 10; // Max wrong guesses
-let guessedLetters = []; // User input - guessed letters
+let guessedLetters = []; // User input -> guessed letters
 
 // Variables for keeping score
 let win = 0;
 let lost = 0;
 
+// HTML figure parts 
 const figureParts = document.querySelectorAll('.figure-part');
 
 // Display maximum allowed wrong guesses
 document.getElementById("maximumWrong").innerHTML = maximumWrong;
-
+// Message
 document.getElementById("guess-the-name").innerHTML = "Can you guess the word?";
 
+// Generate random word
 function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
 };
@@ -117,6 +130,13 @@ function checkLost() {
     }
 }
 
+// Theme selection 
+$("#animals").click(function () { game.generateWord.animals(); });
+$("#foods").click(function () { game.selectWord.foods(); });
+$("#countries").click(function () { game.selectWord.countries(); });
+$("#periodicTable").click(function () { game.selectWord.periodicTable(); });
+
+
 // Play or reset game
 function playGame() {
     wrongGuesses = 0; // Reset wrong guesses
@@ -135,3 +155,4 @@ function playGame() {
 }
 
 generateWord();
+

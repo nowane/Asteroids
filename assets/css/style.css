@@ -173,6 +173,10 @@ a:hover {
     padding: 1rem;
 }
 
+#hiddenLetters {
+    font-size: 2.5rem;
+}
+
 /* ========== HANGMAN */
 
 .figure-container {
@@ -295,7 +299,7 @@ body .header-footer-404 h1 {
     body .header-footer-404 #h1-heading-404 {
         font-size: 3rem;
     }
-    
+
     #gamescore {
         max-width: 93%;
         min-width: 237px;
