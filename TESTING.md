@@ -13,10 +13,42 @@
 
 ## Testing of all user stories.
 
+  ### User Stories
+
+  #### As a New User
+
+- As a user, I want to easily see the purpose of the website.
+    > When the website opens straight away the user can see it's a webpage of a game, ant what it's purpose is.
+
+- As a user, I want the game to be responsive and work on all devices.
+    > The website works as well on small as on bigger screens. 
+
+- As a user, I want a clear explanation on instructions of how to play the game.
+    > When the user presses the "Instructions"-button in the right top corner, the user can read what is to be expected of the game.
+
+- As a user, I want to be able to see how many letters the hidden word has.
+    > When the user presses the "Play Game!"-button, just above the screens center of the screen there appeear underscores. Each underscore presents a hidden letter.
+
+- As a user, I want to be able to tell if my guess was successful or not.
+    > When the user makes a guess for a letter, there will be a reaction on the webpage. Whenever the user guesses a letter correctly, this letter (or possibly more than one if that letter occupies the given word multiple times) will appear on screen. If the user guesses incorrectly, the will be added +1 to his wrong guesses, as well as that there will be added a piece of the hangman figure. When the user has got no letters left to guess due to having guessed all letters or making too many mistakes, they will see the message: "You win!" or "You Lose", as well as that there will be added +1 to wins or losses.
+
+- As a user, I want to see a hangman appear when I guess incorrectly.
+    > The user will see a piece of the hangman figure appear after a wrong guess, with a maximum of 10 wrong guesses. Then the figure is complete and the game is lost.
+
+- As a user, I want there to be a scoring feature.
+    > After the user wins or loses a game, there will be added +1 at the "win" or "lose" in the top center of the screen.
+
+- As a user, I want to be able to restart the game.
+    > When a game ends the user is awarded with a point (+1) at "win" or "lose". When the user presses the "Play Again!" button the user can continue playing, as well as see the score incremented.
+
+  #### As a Returning User
+
+- As a returning user, I want to be able to get in contact with the owner of the website.
+    > In the bottom left of the webpage there is a "Contact"-button. When a user presses this they can send me an e-mail to get in contct with me.
+
 
 
 ## Documentation of any bugs encountered and their resolution steps. 
-
 ---
 ### When trying to get the onscreen keyboard to work I tried al sorts of things to get the hidden letters accepting the letters from user iput. I had a function split up in three different pieces. One piece of the function per 1 row of letters on a keyboard. 
  > In the end the solution took me about a day an a half to come up with, and I came across it by accident.. It came down to the fact I used  uppercase letters in the keyboard rows, and those did not work on the words to be generated I put in - being lowercase.
