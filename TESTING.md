@@ -1,21 +1,48 @@
 # Testing
 
-## Manual testing of each section of the site (such as buttons, links etc).
+## Table of Content
 
+- [Manual testing of each section of the site](#manual-testing-of-each-section-of-the-site)
+- [Testing site responsiveness](#testing-site-responsiveness)
+- [Code validation](#code-validation)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Javascript](#javascript)
+- [Testing of user stories](#testing-of-user-stories) 
+    - [Testing as a new user](#testing-as-a-new-user)
+    - [Testing as a returning user](#testing-as-a-returning-user)
+- [Documentation of any bugs encountered and their resolution steps](#documentation-of-any-bugs-encountered-and-their-resolution-steps)
+- [Documentation of any open bugs](#documentation-of-any-open-bugs)
 
-## Testing site responsiveness (using a site like https://responsivedesignchecker.com/  ). 
+## Manual testing of each section of the site
 
+(such as buttons, links etc)
 
+[Back to the top](#testing)
 
-## Code validation (CSS/HTML/JS using online tools like https://jigsaw.w3.org/css-validator/ and JSHint).
+## Testing site responsiveness 
 
+A mockup of the project, displaying responsiveness.
 
+![Mockup](assets/images/testing/mockup-ms2.PNG)
 
-## Testing of all user stories.
+[Back to the top](#testing)
 
-  ### User Stories
+---
 
-  #### As a New User
+## Code validation
+
+### HTML
+
+### CSS
+
+### Javascript
+
+[Back to the top](#testing)
+
+## Testing of user stories.
+
+  ### Testing as a new user
 
 - As a user, I want to easily see the purpose of the website.
     > When the website opens straight away the user can see it's a webpage of a game, ant what it's purpose is.
@@ -41,14 +68,14 @@
 - As a user, I want to be able to restart the game.
     > When a game ends the user is awarded with a point (+1) at "win" or "lose". When the user presses the "Play Again!" button the user can continue playing, as well as see the score incremented.
 
-  #### As a Returning User
+  ### Testing as a returning user
 
 - As a returning user, I want to be able to get in contact with the owner of the website.
     > In the bottom left of the webpage there is a "Contact"-button. When a user presses this they can send me an e-mail to get in contct with me.
 
 
 
-## Documentation of any bugs encountered and their resolution steps. 
+## Documentation of any bugs encountered and their resolution steps
 ---
 ### When trying to get the onscreen keyboard to work I tried al sorts of things to get the hidden letters accepting the letters from user iput. I had a function split up in three different pieces. One piece of the function per 1 row of letters on a keyboard. 
  > In the end the solution took me about a day an a half to come up with, and I came across it by accident.. It came down to the fact I used  uppercase letters in the keyboard rows, and those did not work on the words to be generated I put in - being lowercase.
@@ -116,12 +143,17 @@
 [Back to the top](#testing)
 
 
-## Documentation of any open bugs (ideally, test cases should focus on each individual section of every page on the website).
+## Documentation of any open bugs 
+
+
+(ideally, test cases should focus on each individual section of every page on the website).
+
 
 During building of this project this error showed up on top of the console log on the deployed (via GitHub) website, an is still there:  "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."  
 > This is coming from an implementation from GitHub itself which is part of an effort to ensure the privacy of our users when browsing GitHub Pages websites. For more information about the topic click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy).
 
 
+[Back to the top](#testing)
 
 [Back to README.md](https://github.com/nowane/Hangman/blob/master/README.md)
 

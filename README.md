@@ -1,7 +1,5 @@
 # Hangman | Interactive Frontend Project 
 
- ====================== PROJECT IMAGE LATER ON 
-
 ## Project Overview
 
  This is the second milestone project in obtaining a **Full-Stack Web Development Diploma** from  **[Code Institute](https://codeinstitute.net/)**. The project is focused on **Javascript**, but **HTML** and **CSS** are used as well. To improve the overall quality and user experience of this website other technologies were used as well. The full list of technologies used can be found in the technologies section of this document. 
@@ -10,7 +8,7 @@
 
 **Please note: To open any links in this document in a new browser tab, please press CTRL + Click.**
 
- ====================== MOCKUP LATER ON
+![Mockup](assets/images/testing/mockup-ms2.PNG)
 
 ## Table of Content
 
@@ -89,7 +87,7 @@ The colours used for this project are based on a schematic provided by [Coolors]
 
 [Back to Table of Content](#table-of-content)
 
-![Color Schema](assets/images/colour-scheme.png)
+![Color Schema](assets/images/design/colour-scheme.png)
 
   #### Typography
 
