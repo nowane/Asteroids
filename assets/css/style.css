@@ -300,9 +300,6 @@ div div div div button {
 
 /* ========== MEDIA QUERIES */
 
-
-
-
 @media screen and (max-width: 575px) {
     #gamescore {
         max-width: 93%;
@@ -395,7 +392,7 @@ div div div div button {
 @media screen and (min-width: 768px) {
 
     #gamescore {
- 
+
         margin-top: 5vh;
     }
 
@@ -405,7 +402,7 @@ div div div div button {
     }
 
     #keyboard {
- 
+
         margin-top: 5vh;
         height: 40vh;
         min-height: 150px;
@@ -423,10 +420,6 @@ div div div div button {
         margin-bottom: 1vh;
     }
 
-    object {
-        height: 25vh;
-    }
-
     .btn-keyboard {
         width: 33px !important;
         height: 33px !important;
@@ -435,5 +428,47 @@ div div div div button {
         font-size: 1rem;
         margin: 1px !important;
         padding: 1px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #gamescore {
+
+        margin-top: 4vh;
+    }
+
+    #hidden-letters {
+
+        margin-top: 4vh;
+    }
+
+    #keyboard {
+
+        margin-top: 4vh;
+        height: 40vh;
+        min-height: 185px;
+    }
+
+    #hangman {
+
+        margin-top: 4vh;
+        height: 40vh;
+        min-height: 185px;
+    }
+
+    #play-button {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .btn-keyboard {
+        width: 40px !important;
+        height: 40px !important;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 3px !important;
+        padding: 3px !important;
     }
 }
