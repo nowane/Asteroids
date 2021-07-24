@@ -300,10 +300,60 @@ div div div div button {
 
 /* ========== MEDIA QUERIES */
 
+@media screen and (max-width: 575px) {
+    #gamescore {
+        max-width: 93%;
+        min-width: 237px;
+        margin-top: 2vh;
+    }
 
+    #hidden-letters {
+        max-width: 93%;
+        min-width: 237px;
+        margin-top: 2vh;
+    }
 
+    #keyboard {
+        max-width: 93%;
+        min-width: 237px;
+        margin-top: 2vh;
+        height: 25vh;
+        min-height: 180px;
+    }
 
-@media screen and (max-width: 768px) {
+    #generateKeyboard {
+        min-width: 237px;
+    }
+
+    #hangman {
+        max-width: 93%;
+        min-width: 237px;
+        margin-top: 2vh;
+        height: 25vh;
+    }
+
+    #play-button {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    object {
+        height: 25vh;
+    }
+
+    .btn-keyboard {
+        width: 30px !important;
+        height: 30px !important;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.3em;
+        margin: 2px !important;
+        padding: 1px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
     #gamescore {
         max-width: 93%;
         margin-top: 2vh;
@@ -318,7 +368,7 @@ div div div div button {
         max-width: 93%;
         margin-top: 2vh;
         height: 25vh;
-        min-height: 180px;
+        min-height: 132px;
     }
 
     #hangman {
@@ -337,16 +387,56 @@ div div div div button {
     }
 
     .btn-keyboard {
-        width: 32px !important;
-        height: 32px !important;
+        width: 40px !important;
+        height: 40px !important;
         font-weight: 700;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
         margin: 2px !important;
-        padding: 3px !important;
+        padding: 1px !important;
+        justify-content: center;
+        align-content: center;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    #gamescore {
+        margin-top: 4vh;
+    }
+
+    #hidden-letters {
+        margin-top: 4vh;
+    }
+
+    #keyboard {
+        margin-top: 4vh;
+        min-height: 132px;
+        height: 40vh;
+    }
+
+    #hangman {
+        margin-top: 4vh;
+        height: 40vh;
+    }
+
+    #play-button {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .btn-keyboard {
+        width: 40px !important;
+        height: 40px !important;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 2px !important;
+        padding: 1px !important;
+        justify-content: center;
+        align-content: center;
+        display: block;
     }
 
 }
-
-
-
