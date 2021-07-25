@@ -14,6 +14,7 @@ let lost = 0;
 const figureParts = document.querySelectorAll(".figure-part");
 
 // Adds keyboard to page when DOM content is loaded
+// Disables keyboard before game is started.
 window.addEventListener("DOMContentLoaded", (event) => {
     var buttonsHTML = "abcdefghijklmnopqrstuvwxyz" // Create buttons
       .split("")
