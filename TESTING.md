@@ -14,11 +14,39 @@
 - [Documentation of any bugs encountered and their resolution steps](#documentation-of-any-bugs-encountered-and-their-resolution-steps)
 - [Documentation of any open bugs](#documentation-of-any-open-bugs)
 
+---
+
 ## Manual testing of each section of the site
 
-(such as buttons, links etc)
+- Markdown links are tested and working.
+
+- Buttons on the website are working.
+
+- 404-page link gets the user back to index.html.
+
+- Wrong guesses works.
+
+- Maximum wrong guesses works.
+
+- +1 for win and lose works.
+
+- Instructions button work.
+
+- View categories button after tha instructions button works.
+
+- Hangman dissappears when game starts.
+
+- Keyboard is disabled when page loads, and is enabled after "Play Game!" button is clicked.
+
+- Play Game button starts the game and other needed function, and after game also resets all needed functions.
+
+- Contact form works.
+
+- GitHub icon links correctly.
 
 [Back to the top](#testing)
+
+---
 
 ## Testing site responsiveness 
 
@@ -40,6 +68,7 @@ Code validated using https://validator.w3.org/ .
 
 [Back to the top](#testing)
 
+---
 
 ### CSS
 
@@ -49,6 +78,7 @@ Code validated using https://jigsaw.w3.org/css-validator/ .
 
 [Back to the top](#testing)
 
+---
 
 ### Javascript
 
@@ -57,33 +87,46 @@ Code validated from https://jshint.com/ .
 ![Error message](assets/images/testing/wordsjs.PNG)
 > The words variable is used in the main file (assets/js/hangman.js) .
 
+---
 
 ![Error message](assets/images/testing/keyboardjs.PNG)
 > The generateButtons function is used in the main file (assets/js/hangman.js) .
 
+---
 
 ![Error message](assets/images/testing/emailjs.PNG)
 > The sendMail() function is used as an function in (index.html) to send the contact form.
 > Emailjs was setup according to emailJS documentation. There was no necessity to declare variable emailjs.
 
+---
+
+![Error message](assets/images/testing/hangmanjs.PNG)
+> The words variable comes from words.js to generate the word.
+> generateButtons is used in the playGame() function to start the game.
+> The playGame() function is connected to the play-game button at index.html to start the game.
+> handleGuess() handles the users guess and acts as a host for other functions in a way.
+
+> I could not get the warning at line 31 sorted.
 
 [Back to the top](#testing)
+
+---
 
 ## Testing of user stories.
 
   ### Testing as a new user
 
 - As a user, I want to easily see the purpose of the website.
-    > When the website opens straight away the user can see it's a webpage of a game, ant what it's purpose is.
+    > When the website opens straight away the user can see it's a webpage of a game, and what its purpose is.
 
 - As a user, I want the game to be responsive and work on all devices.
-    > The website works as well on small as on bigger screens. 
+    > The website works on small as well as on bigger screens.
 
 - As a user, I want a clear explanation on instructions of how to play the game.
     > When the user presses the "Instructions"-button in the right top corner, the user can read what is to be expected of the game.
 
 - As a user, I want to be able to see how many letters the hidden word has.
-    > When the user presses the "Play Game!"-button, just above the screens center of the screen there appeear underscores. Each underscore presents a hidden letter.
+    > When the user presses the "Play Game!"-button, just above the screens center of the screen there appear underscores. Each underscore presents a hidden letter.
 
 - As a user, I want to be able to tell if my guess was successful or not.
     > When the user makes a guess for a letter, there will be a reaction on the webpage. Whenever the user guesses a letter correctly, this letter (or possibly more than one if that letter occupies the given word multiple times) will appear on screen. If the user guesses incorrectly, the will be added +1 to his wrong guesses, as well as that there will be added a piece of the hangman figure. When the user has got no letters left to guess due to having guessed all letters or making too many mistakes, they will see the message: "You win!" or "You Lose", as well as that there will be added +1 to wins or losses.
@@ -96,7 +139,7 @@ Code validated from https://jshint.com/ .
 
 - As a user, I want to be able to restart the game.
     > When a game ends the user is awarded with a point (+1) at "win" or "lose". When the user presses the "Play Again!" button the user can continue playing, as well as see the score incremented.
-    
+
 
   ### Testing as a returning user
 
@@ -104,6 +147,8 @@ Code validated from https://jshint.com/ .
     > In the bottom left of the webpage there is a "Contact"-button. When a user presses this they can send me an e-mail to get in contct with me.
 
 [Back to the top](#testing)
+
+---
 
 ## Documentation of any bugs encountered and their resolution steps
 ---
@@ -175,12 +220,12 @@ Code validated from https://jshint.com/ .
 
 ## Documentation of any open bugs 
 
-
-(ideally, test cases should focus on each individual section of every page on the website).
-
-
-During building of this project this error showed up on top of the console log on the deployed (via GitHub) website, an is still there:  "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."  
+- During building of this project this error showed up on top of the console log on the deployed (via GitHub) website, an is still there:  "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."  
 > This is coming from an implementation from GitHub itself which is part of an effort to ensure the privacy of our users when browsing GitHub Pages websites. For more information about the topic click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy).
+
+- The user can press the play-button during the game resetting the word, not resulting in a loss.
+
+---
 
 
 [Back to the top](#testing)
@@ -188,4 +233,3 @@ During building of this project this error showed up on top of the console log o
 [Back to README.md](https://github.com/nowane/Hangman/blob/master/README.md)
 
 [Back to Repository](https://github.com/nowane/Hangman)
-

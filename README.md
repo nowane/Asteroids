@@ -10,7 +10,11 @@
 
 View live website [here](https://github.com/nowane/Hangman).
 
+---
+
 ![Mockup](assets/images/testing/mockup-ms2.PNG)
+
+---
 
 ## Table of Content
 
@@ -40,6 +44,8 @@ View live website [here](https://github.com/nowane/Hangman).
     - [Cloning Local Repository](#cloning-local-repository)
 - [Credits](#credits)
 
+---
+
 ## Tradeoff Table
 	
 Opportunity/Problem | Importance | Viability/Feasibility
@@ -57,6 +63,8 @@ Timer | 2| 2
 Sounds | 2 | 2
 
 [Back to Table of Content](#Table-of-Content) 
+
+---
 
 ## User Experience -UX-
 
@@ -79,6 +87,8 @@ Sounds | 2 | 2
 
 [Back to Table of Content](#Table-of-Content)
 
+---
+
 ### Design
 
   #### Colour Scheme
@@ -92,6 +102,8 @@ The colours used for this project are based on a schematic provided by [Coolors]
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ![Color Schema](assets/images/design/colour-scheme.png)
 
   #### Typography
@@ -100,11 +112,15 @@ The colours used for this project are based on a schematic provided by [Coolors]
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ### Wireframes
 
 Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wireframes/hangman-wireframes.pdf  ) for desktop, tablet and mobile.
 
 [Back to Table of Content](#table-of-content)
+
+---
 
 ## Features
 
@@ -120,10 +136,10 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 > The instructions button (which is a modal) clearly states how the game is meant to be played, and what is to be expected
 
 - Categories shown after instructions.
-> If the chooses to have a more difficult gaming experience, they can choose not to look at the categories and make it harder for themselves.
+> If the user chooses to have a more difficult gaming experience, they can choose not to look at the categories and make it harder for themselves.
 
 - A lot of words!
-> Per category there are 30 words at the moment, so 120 words in total. This gives the game a lot of replayability and helps prociging a good user experience.
+> Per category there are 30 words at the moment, so 120 words in total. This gives the game a lot of replayability and helps providing a good user experience.
 
 - Wrong guesses displayed.
 > So that users can easily see how many guesses they have got left.
@@ -132,7 +148,7 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 > So the user can easily see how many games they have played, and how many they have won or lost.
 
 - The actual hangman figure.
-> Starting blank, With each wrong guess one more piece of the hangman appears, giving the user a visual display of how many guesses are left to be made in the game.
+> Starting out blank, with each wrong guess one more piece of the hangman appears, giving the user a visual display of how many guesses are left to be made in the game.
 
 - A play game button.
 > When the user presses the button the keyboard will become accessible to click, as well as the hidden word will appear and the game will be set in motion.
@@ -148,6 +164,8 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ### Future features 
 
 - Choosing a category in the modal.
@@ -162,6 +180,8 @@ Added [Wireframes](https://github.com/nowane/Hangman/blob/master/assets/docs/wir
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ### Features changed
 
 Compared to the wireframes and earlier in the project some things have changed. 
@@ -169,7 +189,8 @@ Compared to the wireframes and earlier in the project some things have changed.
 - According to the wireframes there was supposed to be a settings button icon at the top right side. This was supposed to have the following functionality:
   - Categories to be chosen.
   - Difficulty to be set.
-  - Sound to be turned on/off
+  - Sound to be turned on/off.
+
   This all proved to be out of scope at the moment.
 
 - According to the wireframes there was supposed to be a timer at the top left side of the screen. This was not implemented due to a combination of time management and scope of the project.
@@ -177,6 +198,8 @@ Compared to the wireframes and earlier in the project some things have changed.
 - The layout of the hangman an keyboard container changed compared to the wireframes at bigger sizes. This was done to provide a cleaner look and a better UI for the keyboard.
 
 [Back to Table of Content](#table-of-content)
+
+---
 
 ## Technologies
 
@@ -188,17 +211,23 @@ Compared to the wireframes and earlier in the project some things have changed.
 
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to create and manipulate the dynamic elements of the website.
 
+---
+
   ### Integrations
 
 - [Bootstrap 5](https://getbootstrap.com/) - Used as a framework
 - [Font Awesome](https://fontawesome.com/) - Used icons for the GitHub social link icon.
 - [Google Fonts](https://fonts.google.com/) - For the fonts used.
 
+---
+
   ### Version Control- Workspace and Repository Storage
 
 - [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
 - [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment).
 - [GitHub](https://github.com/) - Used to host the deployed website and repository of all previous versions of the build.
+
+---
 
   ### Other Technologies
 
@@ -215,11 +244,15 @@ Compared to the wireframes and earlier in the project some things have changed.
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ## Testing
 
 This [testing document](https://github.com/nowane/Hangman/blob/master/TESTING.md)  contains all testing,
 
 [Back to Table of Content](#table-of-content)
+
+---
 
 ## Deployment
 
@@ -240,6 +273,8 @@ This [testing document](https://github.com/nowane/Hangman/blob/master/TESTING.md
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ### Run Code Locally
 
 You can either fork or clone the local repository on GitHub as follows.
@@ -254,6 +289,8 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
   - You should now have a copy of this repository into your GitHub account.
 
   [Back to Table of Content](#table-of-content)
+
+  ---
 
   #### Cloning Local Repository
 
@@ -275,10 +312,12 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 
 [Back to Table of Content](#table-of-content)
 
+---
+
 ## Credits
 
 - Thanks to my mentor Aaron Sinnott for his help.
-- Thanks to Emmet H Becirovic for his time to helping me understand a function.
+- Thanks to Emmet H Becirovic for his time to helping me with the function of disabling the keyboar when the window is loaded. I did not get it working by myself.
 - Thanks to the slack-community in general.
 
 [Back to Table of Content](#table-of-content)

@@ -53,8 +53,8 @@ body {
 #hidden-letters {
     height: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 2vh;
 }
 
@@ -131,8 +131,8 @@ div div div div .play-again {
     padding: 0.2rem;
     margin: 0.2rem;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     text-align: center;
 }
 
@@ -194,7 +194,8 @@ a:hover {
     font-size: 2.5rem;
 }
 
-#guess-the-name, #final-message {
+#guess-the-name,
+#final-message {
     font-size: 1.8rem;
 }
 
@@ -296,8 +297,8 @@ div div div div h5 {
 
 div div div div button {
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
 }
 
 /* ========== 404 ERROR PAGE */
@@ -314,8 +315,8 @@ body .header-footer-404 h1 {
 .container-404 {
     height: 60vh;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -341,6 +342,7 @@ body .header-footer-404 h1 {
 /* ========== MEDIA QUERIES */
 
 @media screen and (max-width: 767px) {
+
     #h1-heading {
         font-size: 3rem;
     }
@@ -352,7 +354,6 @@ body .header-footer-404 h1 {
     #gamescore {
         max-width: 93%;
         min-width: 237px;
-        margin-top: 2vh;
     }
 
     #hidden-letters {
@@ -364,12 +365,14 @@ body .header-footer-404 h1 {
     #keyboard {
         min-width: 237px;
         max-width: 93%;
-        max-height: 250px;
+        min-height: 200px;
+        ;
+        max-height: 260px;
         margin-top: 2vh;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     #hangman {
@@ -381,7 +384,6 @@ body .header-footer-404 h1 {
 
     #play-button {
         margin-top: 1vh;
-        margin-bottom: -100px;
     }
 
     .btn-keyboard {
