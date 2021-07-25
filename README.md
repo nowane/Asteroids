@@ -277,4 +277,8 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 
 ## Credits
 
+- Thanks to my mentor Aaron Sinnott for his help.
+- Thanks to Emmet H Becirovic for his time to helping me understand a function.
+- Thanks to the slack-community in general.
+
 [Back to Table of Content](#table-of-content)

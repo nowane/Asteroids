@@ -27,8 +27,8 @@ function generateWord() {
 // If chosen letter doesn't excist - push letter into array
 // Disable buttons after they have been chosen
 function handleGuess(letterChosen) {
-    guessedLetters.indexOf(letterChosen) === -1 ?
-        guessedLetters.push(letterChosen) : null;
+    let letterVar = (guessedLetters.indexof(letterChosen) === -1) ? truePart : falsePart;
+    
     document.getElementById(letterChosen).setAttribute("disabled", true);
 
     // If chosen letter excists
@@ -48,7 +48,6 @@ function handleGuess(letterChosen) {
         checkLost();
         drawFigure();
     }
-    return;
 }
 
 // Display hidden word on screen
@@ -56,7 +55,7 @@ function handleGuess(letterChosen) {
 // Check if letter excists in array - if positive, points to position
 function guessedWord() {
     currentWord = hiddenWord.split("").map(letter =>
-        (guessedLetters.indexOf(letter) >= 0) ? letter : " _ ").join("");
+        (guessedLetters.indexOf(letter) >= 0 ) ? letter : " _ ").join("");
 
     // Display the hidden letters of the generated word as undercores on screen
     document.getElementById("hiddenLetters").innerHTML = currentWord;
