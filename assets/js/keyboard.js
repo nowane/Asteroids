@@ -1,4 +1,4 @@
-// Create keyboard buttons on screen
+// Create keyboard buttons on screen by splitting the array of letter into individual letters
 function generateButtons() {
   var buttonsHTML = "abcdefghijklmnopqrstuvwxyz".split("").map(letter =>
     `
@@ -11,6 +11,6 @@ function generateButtons() {
         </button>
       `).join("");
 
+// Grab keyboard-container id and insert HTML
   document.getElementById("generateKeyboard").innerHTML = buttonsHTML;
 };
-
