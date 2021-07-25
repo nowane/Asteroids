@@ -81,11 +81,13 @@
                         <!-- Displays an equal amount of underscores as there are hidden letters -->
                         <h3 id="hiddenLetters">Click the "Play Game!" button near the bottom of the screen</h3>
                         <!-- Shows guess the name in container -->
-                        <h4 id="guess-the-name"></h4>
-                        <div id="final-message-container">
-                            <!-- "You win!" / "You Lose!" message-->
-                            <h5 id="final-message"></h5>
-                        </div>
+                        <p id="guess-the-name">
+                            <p>
+                                <div id="final-message-container">
+                                    <!-- "You win!" / "You Lose!" message-->
+                                    <p id="final-message">
+                                        <p>
+                                </div>
                     </div>
                 </div>
             </div>
@@ -234,39 +236,32 @@
                     <h5 class="modal-title" id="categories">Words from the following Categories</h5>
                 </div>
                 <div class="modal-body">
-
-
-
                     <div class="d-flex justify-content-around">
                         <button id="animals" class="btn-general disabled">Animals</button>
                         <button id="foods" class="btn-general disabled">Foods</button>
                         <button id="countries" class="btn-general disabled">Countries</button>
                         <button id="periodicTable" class="btn-general disabled">Periodic Table</button>
                     </div>
-
-
-                    
                 </div>
                 <div class="modal-footer header-footer-color justify-content-center">
                     <button type="button" class="btn-general" data-bs-dismiss="modal" aria-label="Close">Close</button>
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-        <script src="assets/js/words.js"></script>
-        <script src="assets/js/keyboard.js"></script>
-        <script src="assets/js/app.js"></script>
-        <script>
-            (function () {
-                emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
-            })();
-        </script>
-        <script src="assets/js/email.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="assets/js/words.js"></script>
+    <script src="assets/js/keyboard.js"></script>
+    <script src="assets/js/hangman.js"></script>
+    <script>
+        (function () {
+            emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
+        })();
+    </script>
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>

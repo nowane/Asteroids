@@ -1,3 +1,4 @@
+// jshint esversion: 6
 function sendMail(contact) {
     emailjs.send("gmail", "template_ms2", {
             "from_name": contact.fullname.value,
@@ -12,6 +13,6 @@ function sendMail(contact) {
                 alert("FAILURE!", error);
             },
 
-            document.getElementById("contactForm").reset());;
+            document.getElementById("contactForm").reset());
     return false; // To block loading a new page after submit
 }

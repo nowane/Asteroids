@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* ========== GENERAL SETTINGS */
 html,
 body {
@@ -45,7 +52,9 @@ body {
 
 #hidden-letters {
     height: 100%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 2vh;
 }
 
@@ -90,6 +99,8 @@ body {
     margin: 0.3rem;
     padding: 0.3rem;
     color: #ECA72C;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
     transition: 0.25s;
 }
 
@@ -119,7 +130,9 @@ body {
 div div div div .play-again {
     padding: 0.2rem;
     margin: 0.2rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     text-align: center;
 }
 
@@ -127,6 +140,8 @@ i {
     font-size: 2rem;
     margin: 0.3rem;
     color: #ECA72C;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
     transition: 0.25s;
 }
 
@@ -149,6 +164,8 @@ a:hover {
     margin: 0.3rem;
     padding: 0.3rem;
     color: #ECA72C !important;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
     transition: 0.25s;
 }
 
@@ -175,6 +192,10 @@ a:hover {
 
 #hiddenLetters {
     font-size: 2.5rem;
+}
+
+#guess-the-name, #final-message {
+    font-size: 1.8rem;
 }
 
 /* ========== HANGMAN */
@@ -231,6 +252,30 @@ footer div div p {
     color: white;
 }
 
+.modal ::-webkit-input-placeholder {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+.modal ::-moz-placeholder {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+.modal :-ms-input-placeholder {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+.modal ::-ms-input-placeholder {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
 .modal ::placeholder {
     font-size: 0.8em;
     text-align: center;
@@ -250,7 +295,9 @@ div div div div h5 {
 }
 
 div div div div button {
-    justify-content: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
 }
 
 /* ========== 404 ERROR PAGE */
@@ -266,7 +313,9 @@ body .header-footer-404 h1 {
 
 .container-404 {
     height: 60vh;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
 }
 
@@ -317,7 +366,10 @@ body .header-footer-404 h1 {
         max-width: 93%;
         max-height: 250px;
         margin-top: 2vh;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     #hangman {

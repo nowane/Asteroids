@@ -1,6 +1,7 @@
+//  jshint esversion: 6
 //  Declared variables for HTML elements on the page to manipulate later
 let hiddenWord = ""; // Current word - to for generating the word
-let currentWord = null; // The generated word - split into individual letters as hidden letters
+let currentWord = null; // The generated word - split into individual letters
 let wrongGuesses = 0; // Wrong guesses
 let maximumWrong = 10; // Max wrong guesses
 let guessedLetters = []; // User input -> guessed letters
@@ -9,8 +10,8 @@ let guessedLetters = []; // User input -> guessed letters
 let win = 0;
 let lost = 0;
 
-// HTML figure parts 
-const figureParts = document.querySelectorAll('.figure-part');
+// HTML figure parts
+const figureParts = document.querySelectorAll(".figure-part");
 
 // Display maximum allowed wrong guesses
 // Display "Can you guess the word?" - text in hidden letter section
@@ -20,16 +21,17 @@ document.getElementById("guess-the-name").innerHTML = "Can you guess the word?";
 // Generate random word
 function generateWord() {
     hiddenWord = words[Math.floor(Math.random() * words.length)];
-};
+}
 
-// Handle chosen letter input 
+// Handle chosen letter input
 // If chosen letter doesn't excist - push letter into array
 // Disable buttons after they have been chosen
 function handleGuess(letterChosen) {
-    guessedLetters.indexOf(letterChosen) === -1 ? guessedLetters.push(letterChosen) : null;
+    guessedLetters.indexOf(letterChosen) === -1  ?
+        guessedLetters.push(letterChosen) : null ;
     document.getElementById(letterChosen).setAttribute("disabled", true);
 
-    // If chosen letter excists 
+    // If chosen letter excists
     // Update letters and check for win
     if (hiddenWord.indexOf(letterChosen) >= 0) {
         guessedWord();
@@ -48,12 +50,12 @@ function handleGuess(letterChosen) {
     }
 }
 
-// Display hidden word on screen 
-// map() creates new array in hiddenWord populated with the results of calling currentWord
+// Display hidden word on screen
+// map() creates new array populated with results of calling currentWord
 // Check if letter excists in array - if positive, points to position
 function guessedWord() {
     currentWord = hiddenWord.split("").map(letter =>
-        (guessedLetters.indexOf(letter) >= 0 ? letter : " _ ")).join("");
+        (guessedLetters.indexOf(letter) >= 0 ) ? letter : " _ ").join("");
 
     // Display the hidden letters of the generated word as undercores on screen
     document.getElementById("hiddenLetters").innerHTML = currentWord;
@@ -62,21 +64,21 @@ function guessedWord() {
 // Update wrong guesses on screen
 function updateWrongGuesses() {
     document.getElementById("wrongGuesses").innerHTML = wrongGuesses;
-};
+}
 
 // Draw hangman figure
 // Loops through figureParts and displays one piece per incorrect answer
-// If the amount of looped through figure-parts is smaller than the amount of wrong guesses 
+// If amount of looped through parts is < than amount of wrong guesses
 // Add a part of figure
 // Otherwise do not
 function drawFigure() {
     figureParts.forEach((part, index) => {
         if (index < wrongGuesses) {
-            part.style.display = 'block';
+            part.style.display = "block";
         } else {
-            part.style.display = 'none';
+            part.style.display = "none";
         }
-    })
+    });
 }
 
 // Check if game was won
@@ -98,14 +100,16 @@ function checkWin() {
 }
 
 // Check if game was lost
-// If wrong letter input is equal to maximum allowed wrong amount of letters - you lose
+// If wrong letters === to max wrong letters - you lose
 function checkLost() {
     if (wrongGuesses === maximumWrong) {
 
         // Message shown when lost
         // Answer shown when lose
-        document.getElementById("final-message").innerHTML = "You Lose!";
-        document.getElementById("hiddenLetters").innerHTML = "The answer was " + hiddenWord;
+        document.getElementById("final-message").innerHTML =
+            "You Lose!";
+        document.getElementById("hiddenLetters").innerHTML =
+            "The answer was " + hiddenWord;
 
         // Add +1 to lost
         // Update html
@@ -129,7 +133,8 @@ function playGame() {
     // Clear You Win/Lose text
     // Display "Can you guess the word?" - text in hidden letter section
     document.getElementById("final-message").innerHTML = "";
-    document.getElementById("guess-the-name").innerHTML = "Can you guess the word?";
+    document.getElementById("guess-the-name").innerHTML =
+        "Can you guess the word?";
 
     // Update wrong guesses on screen to starting value
     // Generate new random word
@@ -141,7 +146,7 @@ function playGame() {
     document.getElementById("hiddenLetters").innerHTML = "";
     guessedWord();
 
-    // Clears hangman figure 
+    // Clears hangman figure
     // Generate Keyboard when "Play Game!"is pressed
     drawFigure();
     generateButtons();
