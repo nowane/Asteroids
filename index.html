@@ -207,13 +207,14 @@
                     <ol>
                         <li>Click the "Play Game!"-button</li>
                         <li>Click a letter</li>
-                        <li>Guess wrong and a part of the hangman will appear. You'll have a wrong guess too!</li>
-                        <li>At the 10th incorrect attempt the game is lost</li>
-                        <li>When you win or lose a game, +1 get's added to "win" or "lose"</li>
-                        <li>The words are of different difficulty. Don't expect it all to be easy :)</li>
+                        <li>Guess wrong and a part of the hangman will appear. You'll have a wrong guess added too!</li>
+                        <li>After the 10th incorrect attempt the game is lost</li>
+                        <li>When you win or lose a game, +1 get's added to your "win" or "lose"</li>
+                        <li>The words are of different difficulty. It won't all to be easy :)</li>
                         <li>Click on the category-button below to see which categories you can expect</li>
-                        <li>Or click outside this popup, and start playing straight away</li>
+                        <li>Or click outside of this popup, and start playing straight away</li>
                         <li>Have fun!</li>
+                        <li>Note: At this point in time you can't manually pick a category</li>
                         <li><small>(Optional) Get in touch via the "contact"-button at the bottom left, or via the
                                 GitHub-icon at the botom right, and tell me what you think :-)</small></li>
                     </ol>
@@ -230,7 +231,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content header-footer-color own-border">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="categories">Categories</h5>
+                    <h5 class="modal-title" id="categories">Words from the following Categories</h5>
                 </div>
                 <div class="modal-body">
 
@@ -256,14 +257,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
         <script src="assets/js/words.js"></script>
-
-        <script scr="assets/js/jquery.js"></script>
-
-        <script src="assets/js/input.js"></script>
+        <script src="assets/js/keyboard.js"></script>
         <script src="assets/js/app.js"></script>
-
         <script>
             (function () {
                 emailjs.init("user_tW7jnGjLYyO16mIm45mUs");
