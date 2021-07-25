@@ -34,9 +34,38 @@ A mockup of the project, displaying responsiveness.
 
 ### HTML
 
+Code validated using https://validator.w3.org/ .
+
+![Validation](assets/images/testing/htmlindex.PNG)
+
+[Back to the top](#testing)
+
+
 ### CSS
 
+Code validated using https://jigsaw.w3.org/css-validator/ .
+
+![Validation](assets/images/testing/cssvalidation.PNG)
+
+[Back to the top](#testing)
+
+
 ### Javascript
+
+Code validated from https://jshint.com/ .
+
+![Error message](assets/images/testing/wordsjs.PNG)
+> The words variable is used in the main file (assets/js/hangman.js) .
+
+
+![Error message](assets/images/testing/keyboardjs.PNG)
+> The generateButtons function is used in the main file (assets/js/hangman.js) .
+
+
+![Error message](assets/images/testing/emailjs.PNG)
+> The sendMail() function is used as an function in (index.html) to send the contact form.
+> Emailjs was setup according to emailJS documentation. There was no necessity to declare variable emailjs.
+
 
 [Back to the top](#testing)
 
@@ -67,13 +96,14 @@ A mockup of the project, displaying responsiveness.
 
 - As a user, I want to be able to restart the game.
     > When a game ends the user is awarded with a point (+1) at "win" or "lose". When the user presses the "Play Again!" button the user can continue playing, as well as see the score incremented.
+    
 
   ### Testing as a returning user
 
 - As a returning user, I want to be able to get in contact with the owner of the website.
     > In the bottom left of the webpage there is a "Contact"-button. When a user presses this they can send me an e-mail to get in contct with me.
 
-
+[Back to the top](#testing)
 
 ## Documentation of any bugs encountered and their resolution steps
 ---
