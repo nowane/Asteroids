@@ -13,6 +13,33 @@ let lost = 0;
 // HTML figure parts
 const figureParts = document.querySelectorAll(".figure-part");
 
+// Adds keyboard to page when DOM content is loaded
+window.addEventListener("DOMContentLoaded", (event) => {
+    var buttonsHTML = "abcdefghijklmnopqrstuvwxyz" // Create buttons
+      .split("")
+      .map(
+        (letter) =>
+          `
+              <button
+                class="btn-keyboard"
+                disabled
+                id='` +
+          letter +
+          `'
+                onClick="handleGuess('` +
+          letter +
+          `')"
+              >
+                ` +
+          letter +
+          `
+              </button>
+            `
+      )
+      .join("");
+      document.getElementById("generateKeyboard").innerHTML = buttonsHTML;
+  });
+ 
 // Display maximum allowed wrong guesses
 // Display "Can you guess the word?" - text in hidden letter section
 document.getElementById("maximumWrong").innerHTML = maximumWrong;
@@ -27,8 +54,8 @@ function generateWord() {
 // If chosen letter doesn't excist - push letter into array
 // Disable buttons after they have been chosen
 function handleGuess(letterChosen) {
-    let letterVar = (guessedLetters.indexof(letterChosen) === -1) ? truePart : falsePart;
-    
+    guessedLetters.indexOf(letterChosen) === -1  ?
+        guessedLetters.push(letterChosen) : null ;
     document.getElementById(letterChosen).setAttribute("disabled", true);
 
     // If chosen letter excists
